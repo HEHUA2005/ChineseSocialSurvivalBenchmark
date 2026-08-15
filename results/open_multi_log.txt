@@ -1,0 +1,9 @@
+===== OPEN TESTING grok-4.5 (12:49:15) =====
+  —— open-grok-4.5 客观题准确率: 100.0% (11/11)
+  —— 开放题平均分: 36.6/50
+报告已写入: results/open-grok-4.5.json
+===== OPEN TESTING grok-4.3-fast (12:57:13) =====
+  —— open-grok-4.3-fast 客观题准确率: 81.8% (9/11)
+  —— 开放题平均分: 39.6/50
+报告已写入: results/open-grok-4.3-fast.json
+===== OPEN TESTING grok-4.20-0309-reasoning (12:59:57) =====

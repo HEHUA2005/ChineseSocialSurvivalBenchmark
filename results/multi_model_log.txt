@@ -1,0 +1,21 @@
+===== TESTING grok-4.5 (12:34:30) =====
+
+报告已写入: results/mc-grok-4.5.json
+Markdown 汇总已写入: results/mc-grok-4.5.md
+===== TESTING grok-4.3-fast (12:37:40) =====
+
+报告已写入: results/mc-grok-4.3-fast.json
+Markdown 汇总已写入: results/mc-grok-4.3-fast.md
+===== TESTING grok-4.20-0309-reasoning (12:39:25) =====
+
+报告已写入: results/mc-grok-4.20-0309-reasoning.json
+Markdown 汇总已写入: results/mc-grok-4.20-0309-reasoning.md
+===== TESTING nemotron-3.5-lightning-free (12:43:33) =====
+
+报告已写入: results/mc-nemotron-3.5-lightning-free.json
+Markdown 汇总已写入: results/mc-nemotron-3.5-lightning-free.md
+===== TESTING hy3-free (12:44:50) =====
+
+报告已写入: results/mc-hy3-free.json
+Markdown 汇总已写入: results/mc-hy3-free.md
+ALL DONE (12:47:13)

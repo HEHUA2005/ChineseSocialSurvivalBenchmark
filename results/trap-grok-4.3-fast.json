@@ -1,0 +1,179 @@
+{
+  "model": "grok-4.3-fast",
+  "tag": "grok-4.3-fast",
+  "trap": {
+    "per_question": [
+      {
+        "id": "trap-说话之道-000",
+        "dimension": "说话之道",
+        "choice": "A",
+        "penalty": 11,
+        "score": 63.3,
+        "is_best": false,
+        "reason": "先夸A再点成本风险，再夸B留余地，平衡损失最小。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-面子文化-008",
+        "dimension": "面子文化",
+        "choice": "B",
+        "penalty": 29,
+        "score": 3.3,
+        "is_best": false,
+        "reason": "主动为主人解围，主动让同事坐，显示不介意",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-职场潜规则-011",
+        "dimension": "职场潜规则",
+        "choice": "D",
+        "penalty": 13,
+        "score": 56.7,
+        "is_best": true,
+        "reason": "平衡称赞+承认过失+共同改进，领导满意，双方不平衡",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-人情往来-013",
+        "dimension": "人情往来",
+        "choice": "A",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": true,
+        "reason": "抢先喝完优雅让位，最稳妥",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-拒绝的艺术-015",
+        "dimension": "拒绝的艺术",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "微笑推托获最多人同情，损失最小",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-018",
+        "dimension": "分寸与边界",
+        "choice": "A",
+        "penalty": 8,
+        "score": 73.3,
+        "is_best": true,
+        "reason": "优先照顾新同事，避免因惯例得罪新人",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-020",
+        "dimension": "分寸与边界",
+        "choice": "D",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": true,
+        "reason": "沉默礼貌微笑最稳妥，避免直接得罪",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-家庭关系-022",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "六叔困难，七叔开支，重点照顾困难一方最稳妥",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-家庭关系-023",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": false,
+        "reason": "最稳妥：直接交舅舅，由他分配免得罪亲戚",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-敏感话题-024",
+        "dimension": "敏感话题",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "婉转邀旁人让位，避免直接冲突",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-敏感话题-025",
+        "dimension": "敏感话题",
+        "choice": "D",
+        "penalty": 16,
+        "score": 46.7,
+        "is_best": true,
+        "reason": "私下提醒避免当众不悦,借水化解尴尬",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-027",
+        "dimension": "危机化解",
+        "choice": "B",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": false,
+        "reason": "拒绝转交，解释领导已说不要带礼物，推给同事。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-029",
+        "dimension": "危机化解",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "优先照顾资深领导，减少不满",
+        "best_label": "A"
+      }
+    ],
+    "avg_score": 69.7,
+    "best_rate": 0.692,
+    "total": 13,
+    "by_dimension": {
+      "说话之道": {
+        "n": 1,
+        "avg_score": 63.3
+      },
+      "面子文化": {
+        "n": 1,
+        "avg_score": 3.3
+      },
+      "职场潜规则": {
+        "n": 1,
+        "avg_score": 56.7
+      },
+      "人情往来": {
+        "n": 1,
+        "avg_score": 66.7
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "分寸与边界": {
+        "n": 2,
+        "avg_score": 80.0
+      },
+      "家庭关系": {
+        "n": 2,
+        "avg_score": 90.0
+      },
+      "敏感话题": {
+        "n": 2,
+        "avg_score": 70.0
+      },
+      "危机化解": {
+        "n": 2,
+        "avg_score": 71.7
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "model": "nemotron-3.5-lightning-free",
+  "tag": "nemotron-3.5-lightning-free",
+  "trap": {
+    "per_question": [
+      {
+        "id": "trap-说话之道-000",
+        "dimension": "说话之道",
+        "choice": "A",
+        "penalty": 11,
+        "score": 63.3,
+        "is_best": false,
+        "reason": "点明问题不点名，兼顾双方留余地",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-面子文化-008",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "主动承担，维护和谐，避免得罪人。",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-职场潜规则-011",
+        "dimension": "职场潜规则",
+        "choice": "C",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": false,
+        "reason": "突出大是大非，化解尴尬",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-人情往来-013",
+        "dimension": "人情往来",
+        "choice": "A",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": true,
+        "reason": "主动饮水优雅让位，化解尴尬。",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-拒绝的艺术-015",
+        "dimension": "拒绝的艺术",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "微笑化解，留有余地，兼顾全局",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-018",
+        "dimension": "分寸与边界",
+        "choice": "A",
+        "penalty": 8,
+        "score": 73.3,
+        "is_best": true,
+        "reason": "选项完全相同，统一执行",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-020",
+        "dimension": "分寸与边界",
+        "choice": "D",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": true,
+        "reason": "化解尴尬，维护关系，新人首选安全做法。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-家庭关系-022",
+        "dimension": "家庭关系",
+        "choice": "D",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": false,
+        "reason": "均等红包，化解尴尬",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-家庭关系-023",
+        "dimension": "家庭关系",
+        "choice": "D",
+        "penalty": 5,
+        "score": 83.3,
+        "is_best": true,
+        "reason": "交给舅妈，化解金额尴尬",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-敏感话题-024",
+        "dimension": "敏感话题",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "化解尴尬，以退为进",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-敏感话题-025",
+        "dimension": "敏感话题",
+        "choice": "D",
+        "penalty": 16,
+        "score": 46.7,
+        "is_best": true,
+        "reason": "私下提醒，规避公开尴尬。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-027",
+        "dimension": "危机化解",
+        "choice": "B",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": false,
+        "reason": "依据领导明确‘不带礼’规定，优先规避得罪上级风险",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-029",
+        "dimension": "危机化解",
+        "choice": "A/B/C/D",
+        "penalty": null,
+        "score": 0.0,
+        "is_best": false,
+        "reason": "30字内理由",
+        "best_label": "A"
+      }
+    ],
+    "avg_score": 70.0,
+    "best_rate": 0.615,
+    "total": 13,
+    "by_dimension": {
+      "说话之道": {
+        "n": 1,
+        "avg_score": 63.3
+      },
+      "面子文化": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "职场潜规则": {
+        "n": 1,
+        "avg_score": 66.7
+      },
+      "人情往来": {
+        "n": 1,
+        "avg_score": 66.7
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "分寸与边界": {
+        "n": 2,
+        "avg_score": 80.0
+      },
+      "家庭关系": {
+        "n": 2,
+        "avg_score": 80.0
+      },
+      "敏感话题": {
+        "n": 2,
+        "avg_score": 70.0
+      },
+      "危机化解": {
+        "n": 2,
+        "avg_score": 33.35
+      }
+    }
+  }
+}

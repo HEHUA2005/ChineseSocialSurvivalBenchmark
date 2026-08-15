@@ -1,0 +1,179 @@
+{
+  "model": "grok-4.5",
+  "tag": "grok-4.5",
+  "trap": {
+    "per_question": [
+      {
+        "id": "trap-说话之道-000",
+        "dimension": "说话之道",
+        "choice": "D",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "直接肯定两人功劳，不提缺点最稳妥",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-面子文化-008",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "主动起身让坐后面，符合暗示且不涉及他人",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-职场潜规则-011",
+        "dimension": "职场潜规则",
+        "choice": "D",
+        "penalty": 13,
+        "score": 56.7,
+        "is_best": true,
+        "reason": "D最稳妥，公道不偏，全面负责",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-人情往来-013",
+        "dimension": "人情往来",
+        "choice": "A",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": true,
+        "reason": "主动让位给林总，优雅回应暗示",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-拒绝的艺术-015",
+        "dimension": "拒绝的艺术",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "微笑解释仅剩一杯，保持体面",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-018",
+        "dimension": "分寸与边界",
+        "choice": "A",
+        "penalty": 8,
+        "score": 73.3,
+        "is_best": true,
+        "reason": "主动让座体现尊重新人",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-020",
+        "dimension": "分寸与边界",
+        "choice": "D",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": true,
+        "reason": "沉默称赞菜品最稳妥",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-家庭关系-022",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "优先给六叔红包并解释困难，婉拒七叔",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-家庭关系-023",
+        "dimension": "家庭关系",
+        "choice": "D",
+        "penalty": 5,
+        "score": 83.3,
+        "is_best": true,
+        "reason": "给舅妈，低调不张扬。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-敏感话题-024",
+        "dimension": "敏感话题",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "间接服务旁人，最稳妥不冲突",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-敏感话题-025",
+        "dimension": "敏感话题",
+        "choice": "D",
+        "penalty": 16,
+        "score": 46.7,
+        "is_best": true,
+        "reason": "D：给酒但提醒不收，满足领导保护副总",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-027",
+        "dimension": "危机化解",
+        "choice": "D",
+        "penalty": 6,
+        "score": 80.0,
+        "is_best": true,
+        "reason": "私下转交并留收据最稳妥",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-029",
+        "dimension": "危机化解",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "优先照顾最资深领导，最稳妥",
+        "best_label": "A"
+      }
+    ],
+    "avg_score": 79.7,
+    "best_rate": 1.0,
+    "total": 13,
+    "by_dimension": {
+      "说话之道": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "面子文化": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "职场潜规则": {
+        "n": 1,
+        "avg_score": 56.7
+      },
+      "人情往来": {
+        "n": 1,
+        "avg_score": 66.7
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "分寸与边界": {
+        "n": 2,
+        "avg_score": 80.0
+      },
+      "家庭关系": {
+        "n": 2,
+        "avg_score": 88.3
+      },
+      "敏感话题": {
+        "n": 2,
+        "avg_score": 70.0
+      },
+      "危机化解": {
+        "n": 2,
+        "avg_score": 78.35
+      }
+    }
+  }
+}

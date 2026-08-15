@@ -1,0 +1,179 @@
+{
+  "model": "hy3-free",
+  "tag": "hy3-free",
+  "trap": {
+    "per_question": [
+      {
+        "id": "trap-说话之道-000",
+        "dimension": "说话之道",
+        "choice": "D",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "全夸不提过，遵领导不伤脸意，不得罪人最稳",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-面子文化-008",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "主动退让化解尴尬，不牵扯同事，显懂事且稳妥。",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-职场潜规则-011",
+        "dimension": "职场潜规则",
+        "choice": "D",
+        "penalty": 13,
+        "score": 56.7,
+        "is_best": true,
+        "reason": "全面指出优劣并肯定，显公道负责，双方平衡易接受。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-人情往来-013",
+        "dimension": "人情往来",
+        "choice": "C",
+        "penalty": 12,
+        "score": 60.0,
+        "is_best": false,
+        "reason": "低调让水给领导，自己不喝损失小，不张扬免尴尬",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-拒绝的艺术-015",
+        "dimension": "拒绝的艺术",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "微笑缓和，推脱稍后补充，不得罪具体人，损失最小",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-018",
+        "dimension": "分寸与边界",
+        "choice": "A",
+        "penalty": 8,
+        "score": 73.3,
+        "is_best": true,
+        "reason": "顺主人意让座新人，显谦让不抢位，不得罪领导，损失最小。",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-020",
+        "dimension": "分寸与边界",
+        "choice": "D",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": true,
+        "reason": "避免负面评价，礼貌夸赞，新人不得罪寿星最稳妥",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-家庭关系-022",
+        "dimension": "家庭关系",
+        "choice": "D",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": false,
+        "reason": "各给一千示心意，不偏袒不得罪，损失最小最稳妥",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-家庭关系-023",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": false,
+        "reason": "交舅舅处理最稳妥，主人可酌情收退，避免尴尬减损失",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-敏感话题-024",
+        "dimension": "敏感话题",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "添水解水少尴尬，勤快不得罪人，避免直接让座或揭短。",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-敏感话题-025",
+        "dimension": "敏感话题",
+        "choice": "D",
+        "penalty": 16,
+        "score": 46.7,
+        "is_best": true,
+        "reason": "私下转交提醒合规，避免公开违纪，照顾关系与面子，损失最小。",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-027",
+        "dimension": "危机化解",
+        "choice": "B",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": false,
+        "reason": "领导明拒礼，推回同事虽歉但不得罪上级，职场损失最小",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-危机化解-029",
+        "dimension": "危机化解",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "优先资深领导示尊重，稳住核心，损失最小",
+        "best_label": "A"
+      }
+    ],
+    "avg_score": 77.2,
+    "best_rate": 0.692,
+    "total": 13,
+    "by_dimension": {
+      "说话之道": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "面子文化": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "职场潜规则": {
+        "n": 1,
+        "avg_score": 56.7
+      },
+      "人情往来": {
+        "n": 1,
+        "avg_score": 60.0
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "avg_score": 93.3
+      },
+      "分寸与边界": {
+        "n": 2,
+        "avg_score": 80.0
+      },
+      "家庭关系": {
+        "n": 2,
+        "avg_score": 81.7
+      },
+      "敏感话题": {
+        "n": 2,
+        "avg_score": 70.0
+      },
+      "危机化解": {
+        "n": 2,
+        "avg_score": 71.7
+      }
+    }
+  }
+}

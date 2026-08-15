@@ -1,0 +1,149 @@
+{
+  "model": "grok-4.20-0309-reasoning",
+  "tag": "mc-grok-4.20-0309-reasoning",
+  "timestamp": "2026-08-15T12:39:25.648846",
+  "mc": {
+    "per_question": [
+      {
+        "id": "人情往来-001",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "C选项语气温和肯定孩子能力，以过去共同打拼的积极方式作为回报，既化解尴尬又维护双方面子，最符合人情世故。"
+      },
+      {
+        "id": "人情往来-002",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "主动道歉并请喝酒能缓和误会、给主管面子，符合职场人情世故，避免当场解释导致冲突升级。"
+      },
+      {
+        "id": "分寸与边界-002",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "当众道歉承认错误并承诺改进显示尊重领导、态度端正，能缓和局面并保住职位。"
+      },
+      {
+        "id": "家庭关系-002",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "微笑轻声承认协调责任，展现担当且维护领导，避免推责或慌乱，最符合职场得体之道。"
+      },
+      {
+        "id": "拒绝的艺术-000",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "私下温和沟通既保住面子又解决实际问题，是最得体的人情世故处理方式。"
+      },
+      {
+        "id": "敏感话题-002",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "私下单独说明可避免当众尴尬，维护双方关系且有效解决问题，符合职场人情世故。"
+      },
+      {
+        "id": "职场潜规则-001",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "A选项诚恳承认不熟悉但不推卸，主动提出协助其他工作，既礼貌又显团队意识，避免了撒谎或过度承诺。"
+      },
+      {
+        "id": "职场潜规则-002",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "既不翻脸又巧妙点明自身贡献，维护关系同时澄清事实最得体"
+      },
+      {
+        "id": "说话之道-001",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "坦诚承认失言并表达修复意愿，最能体现真诚与修补关系的得体态度"
+      },
+      {
+        "id": "面子文化-001",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "用调侃方式既维护群规又保全老同学面子，避免直接冲突和关系破裂"
+      },
+      {
+        "id": "饭局礼仪-001",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "C选项委婉表达忙碌现状，暂缓承诺但不拒绝，维护了关系平衡，符合人情世故。"
+      }
+    ],
+    "accuracy": 0.7272727272727273,
+    "correct": 8,
+    "total": 11,
+    "by_dimension": {
+      "人情往来": {
+        "n": 2,
+        "acc": 0.5
+      },
+      "分寸与边界": {
+        "n": 1,
+        "acc": 0.0
+      },
+      "家庭关系": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "敏感话题": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "职场潜规则": {
+        "n": 2,
+        "acc": 1.0
+      },
+      "说话之道": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "面子文化": {
+        "n": 1,
+        "acc": 0.0
+      },
+      "饭局礼仪": {
+        "n": 1,
+        "acc": 1.0
+      }
+    }
+  }
+}

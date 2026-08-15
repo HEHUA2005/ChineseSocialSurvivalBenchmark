@@ -1,0 +1,149 @@
+{
+  "model": "grok-4.3-fast",
+  "tag": "mc-grok-4.3-fast",
+  "timestamp": "2026-08-15T12:37:40.829010",
+  "mc": {
+    "per_question": [
+      {
+        "id": "人情往来-001",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "最得体，既认可儿子能力又表达当年情谊，避免直接用‘还钱利息’或‘想让孩子来’的直接交易方式，体现温和尊重和礼貌人情世故。"
+      },
+      {
+        "id": "人情往来-002",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "最得体做法是假装没看见小张，笑着打招呼：“小张，今晚我请你喝酒道歉，这次我真的犯错了。”"
+      },
+      {
+        "id": "分寸与边界-002",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "立即道歉并保证改进，既显示诚意又能快速缓和关系，避免公开对抗或拖延。"
+      },
+      {
+        "id": "家庭关系-002",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "微笑点头轻声承认小错是最得体的做法，能挽回面子、展示负责态度、避免直接推责给领导，符合HR总监的职业形象和人情世故。"
+      },
+      {
+        "id": "拒绝的艺术-000",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "温和私下协商既不公开撕破脸，又避免朋友圈闲话"
+      },
+      {
+        "id": "敏感话题-002",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "最得体的是尊重王主管，避免当众点破让财务部尴尬，同时不影响团队吃饭氛围，后续私下单独沟通才合适。"
+      },
+      {
+        "id": "职场潜规则-001",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "选择A，既感谢领导信任，又主动谦虚请求让有经验同事负责，避免暴露自己水平不足，同时展现良好人际态度。"
+      },
+      {
+        "id": "职场潜规则-002",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "先微笑着劝酒拉近距离，再自然点明事实维护面子不翻脸，最得体。"
+      },
+      {
+        "id": "说话之道-001",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "最得体是直接诚恳道歉并主动修复关系，符合同学聚会后的善意回应。"
+      },
+      {
+        "id": "面子文化-001",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "私聊小张问他是不是违规广告，让他解释清楚，但没删帖"
+      },
+      {
+        "id": "饭局礼仪-001",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "忙于工作且人情世故要求真诚推辞而不负责任承诺或推责给别人。"
+      }
+    ],
+    "accuracy": 0.8181818181818182,
+    "correct": 9,
+    "total": 11,
+    "by_dimension": {
+      "人情往来": {
+        "n": 2,
+        "acc": 0.5
+      },
+      "分寸与边界": {
+        "n": 1,
+        "acc": 0.0
+      },
+      "家庭关系": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "敏感话题": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "职场潜规则": {
+        "n": 2,
+        "acc": 1.0
+      },
+      "说话之道": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "面子文化": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "饭局礼仪": {
+        "n": 1,
+        "acc": 1.0
+      }
+    }
+  }
+}

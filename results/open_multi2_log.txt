@@ -1,0 +1,13 @@
+===== OPEN TESTING grok-4.20-0309-reasoning (16:18:17) =====
+  —— open-grok-4.20-0309-reasoning 客观题准确率: 72.7% (8/11)
+  —— 开放题平均分: 37.7/50
+报告已写入: results/open-grok-4.20-0309-reasoning.json
+===== OPEN TESTING nemotron-3.5-lightning-free (16:36:49) =====
+  —— open-nemotron-3.5-lightning-free 客观题准确率: 90.9% (10/11)
+  —— 开放题平均分: 35.2/50
+报告已写入: results/open-nemotron-3.5-lightning-free.json
+===== OPEN TESTING hy3-free (16:48:01) =====
+  —— open-hy3-free 客观题准确率: 72.7% (8/11)
+  —— 开放题平均分: 36.9/50
+报告已写入: results/open-hy3-free.json
+ALL OPEN DONE (16:56:24)
