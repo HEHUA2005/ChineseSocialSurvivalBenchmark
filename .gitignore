@@ -1,0 +1,15 @@
+# 本地环境配置（可选，不放仓库）
+.env
+*.log
+
+# 中间产物
+data/out/
+data/raw/
+
+# 评测报告（按需保留，也可提交）
+results/*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/

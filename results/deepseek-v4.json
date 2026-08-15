@@ -1,0 +1,149 @@
+{
+  "model": "deepseek-v4-flash-free",
+  "tag": "deepseek-v4",
+  "timestamp": "2026-08-14T17:26:52.801327",
+  "mc": {
+    "per_question": [
+      {
+        "id": "人情往来-001",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "孙磊温和地提出帮助，既承认过去的共同经历，又给予尊重和实际支持，最得体。"
+      },
+      {
+        "id": "人情往来-002",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "平静地澄清误会，避免当众争辩或激化矛盾，既维护了对方尊严，也保留了解释余地。"
+      },
+      {
+        "id": "分寸与边界-002",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "私下沟通了解领导要求，再在会议上提出修正方案，既能避免冲突又能展现解决问题的能力。"
+      },
+      {
+        "id": "家庭关系-002",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "主动揽责并轻声回应，既维护领导面子，又显得有担当，避免当众冲突。"
+      },
+      {
+        "id": "拒绝的艺术-000",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "私下温和沟通，既明确要回钱又不撕破脸，维护了朋友关系。"
+      },
+      {
+        "id": "敏感话题-002",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "饭局上公开指出会让财务部尴尬，私下沟通更得体且能维护关系。"
+      },
+      {
+        "id": "职场潜规则-001",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "既肯定领导眼光，又表决心，不失礼也不暴露不熟悉。"
+      },
+      {
+        "id": "职场潜规则-002",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "微笑着点明事实，既维护自己权益又不撕破脸，最得体。"
+      },
+      {
+        "id": "说话之道-001",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "坦诚承认自己可能伤害了对方，并表达愿意修复关系，最得体且负责任。"
+      },
+      {
+        "id": "面子文化-001",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "私聊询问既维护群规，又给老同学留面子，避免公开冲突伤感情。"
+      },
+      {
+        "id": "饭局礼仪-001",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "既坦诚说明自己眼下忙，又承诺记挂此事，不敷衍也不越权，最符合职场人情分寸。"
+      }
+    ],
+    "accuracy": 0.9090909090909091,
+    "correct": 10,
+    "total": 11,
+    "by_dimension": {
+      "人情往来": {
+        "n": 2,
+        "acc": 1.0
+      },
+      "分寸与边界": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "家庭关系": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "拒绝的艺术": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "敏感话题": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "职场潜规则": {
+        "n": 2,
+        "acc": 0.5
+      },
+      "说话之道": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "面子文化": {
+        "n": 1,
+        "acc": 1.0
+      },
+      "饭局礼仪": {
+        "n": 1,
+        "acc": 1.0
+      }
+    }
+  }
+}
