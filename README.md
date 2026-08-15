@@ -81,11 +81,13 @@ git clone https://github.com/HEHUA2005/ChineseSocialSurvivalBenchmark.git
 cd ChineseSocialSurvivalBenchmark
 pip install requests   # 唯一依赖
 
-# 0. 设置 API（敏感信息只走环境变量，不入库）
-export RENQING_BENCH_API_KEY="sk-xxx"
-export RENQING_BENCH_API_BASE="https://your-api-endpoint/v1"   # 可选
-export RENQING_BENCH_GEN_MODEL="grok-4.3-fast"                    # 可选
-export RENQING_BENCH_JUDGE_MODEL="grok-4.3-fast"                  # 可选
+# 0. 配置 API：复制 .env.example 为 .env 并填写你的密钥（.env 已被 gitignore，不会泄露）
+cp .env.example .env
+# 然后编辑 .env：
+#   RENQING_BENCH_API_KEY=sk-xxx
+#   RENQING_BENCH_API_BASE=https://your-api-endpoint/v1   # 可选，默认值是占位符
+#   RENQING_BENCH_GEN_MODEL=grok-4.3-fast                # 可选
+#   RENQING_BENCH_JUDGE_MODEL=grok-4.3-fast              # 可选
 
 # 1. 生成题目（按维度或全维度）
 python3 -m src.generate --dimension "职场潜规则" --count 5

@@ -9,7 +9,25 @@
 """
 import os
 
-# ---- LLM API 配置（全部来自环境变量）----
+
+def _load_env_file(path=".env"):
+    """轻量 .env 加载：只设置未定义的环境变量，不覆盖已有值。"""
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, _, v = line.partition("=")
+            k, v = k.strip(), v.strip().strip('"').strip("'")
+            if k and k not in os.environ:
+                os.environ[k] = v
+
+
+_load_env_file()
+
+# ---- LLM API 配置（全部来自环境变量或 .env）----
 API_BASE = os.environ.get("RENQING_BENCH_API_BASE", "https://your-api-endpoint/v1")
 API_KEY = os.environ.get("RENQING_BENCH_API_KEY", "")
 
