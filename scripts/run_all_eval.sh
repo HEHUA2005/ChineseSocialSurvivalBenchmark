@@ -4,8 +4,11 @@
 #   1 = MC (runs=2)   2 = trap   3 = open   4 = sort   5 = mt
 set -u
 cd "$(dirname "$0")/.."
-export RENQING_BENCH_API_KEY="sk-your-key-here"
-export RENQING_BENCH_API_BASE="https://api.example.com/v1"
+# 敏感 API 配置从 .env 读取（绝不硬编码进仓库）
+if [ -f .env ]; then
+  set -a; source .env; set +a
+fi
+: "${RENQING_BENCH_API_KEY:?请先在 .env 配置 RENQING_BENCH_API_KEY}"
 
 MODELS=(
   "grok-4.5"
