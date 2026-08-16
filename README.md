@@ -62,32 +62,37 @@ flowchart LR
 
 ## 🏆 排行榜
 
-> v1.0（2025-08，11 道客观题 + 13 道陷阱题 + 10 道开放题，6 个模型）
+> v1.1（2025-08，113 客观 + 45 陷阱 + 50 开放 + 12 排序 + 9 多轮 = **229 题正式集**，4 家厂商各一代表模型）
+> 生成/质检一律 grok-4.3-fast；被测模型：grok-4.5（xAI）、deepseek-v4-flash-free（DeepSeek）、hy3-free（Hyperbolic）、nemotron-3.5-lightning-free（NVIDIA）
 
-**综合总分** = 45% 客观题准确率 + 30% 陷阱题加权得分 + 25% 开放题评分（满分 100）
+**综合总分** = 33% 客观题准确率 + 23% 陷阱题加权分 + 17% 开放题评分 + 10% 排序题（Kendall tau+底线保护）+ 9% 多轮对话 + 8% 答题稳定性（满分 100）
 
-| 排名 | 模型 | 总分 | 客观题 | 陷阱题 | 开放题(×2) |
-|---|------|------|--------|--------|-----------|
-| 1 | hy3-free | **83.9** | 90.9% | 77.2 | **79.2** |
-| 2 | nemotron-3.5-lightning-free | **80.1** | 90.9% | 70.0 | 72.7 |
-| 3 | deepseek-v4-flash-free | **79.6** | 81.8%※ | 78.7 | 76.5 |
-| 4 | grok-4.5 | **79.1** | 81.8%※ | **79.7** | 73.3 |
-| 5 | grok-4.3-fast | **77.6** | 81.8% | 69.7 | 79.3 |
-| 6 | grok-4.20-0309-reasoning | **71.6** | 72.7% | 71.5 | 69.8 |
+| 排名 | 模型 | 总分 | 客观题 | 陷阱题 | 开放题(×2) | 排序题 | 多轮 | 稳定性 |
+|---|------|------|--------|--------|-----------|--------|------|--------|
+| 1 | deepseek-v4-flash-free | **80.0** | 79.6% | 74.5 | 78.4 | 95.0 | 72.2 | 91% |
+| 2 | hy3-free | **79.3** | 75.2% | 73.3 | 77.9 | **100.0** | **79.1** | 90% |
+| 3 | nemotron-3.5-lightning-free | **78.9** | **84.1%** | 67.6 | 77.3 | 90.9 | 73.6 | 84%※ |
+| 4 | grok-4.5 | **76.8** | 78.8% | **74.6** | **80.1** | 95.0 | 35.2⚠️ | **92%** |
 
-> ⚠️ **※ 稳定性提示**：同一模型多次答题采样有波动——deepseek 客观题两次测量为 **90.9% / 81.8%**，
-> grok-4.5 两次为 **81.8% / 100%**。排名仅供参考，关注维度画像（雷达图）比总分更有意义。
-> 另外 deepseek / grok-4.20 在『面子文化』维度反复选错，见下方示例。
+> - ※ nemotron 客观题得分最高但**稳定性最低**（84%，两次采样一致率），说明其高准确率带运气成分
+> - ⚠️ grok-4.5 单题能力最强（开放题 80.1 最高）但在**多轮动态博弈**大幅落后（35.2 vs 其他 72-79）——能答好静态题，但接不住连续三回合的临场变化
+
+**核心方法论发现（本榜最有价值的结论）**：
+
+1. **静态题区分不了当前模型**——客观/陷阱/开放/排序四类 σ 变异系数仅 1-4%，4 家综合分挤在 76.8~80.0。
+2. **多轮对话（judge 扮演对手的动态博弈）是唯一强区分器**——σ 变异系数 26.8%，把模型拉开近 44 分。真功夫在「接得住话头 + 能补救」的博弈里，不在知识题里。
+3. **judge 自校准**（[judge_calibration.md](results/judge_calibration.md)）：同一答案多温度复打 σ=8.99/50，且低分答案被复打高估（回归效应）——开放题分数是噪声区间而非精确值，榜单只讨论相对差 ≥5 分的结论。
+4. **错题本**（[hardest.md](results/hardest.md)）：危机化解-008（4/4 全错，3 家对齐选同一个错误答案）、职场潜规则-001（有争议题）是真正的「分水岭题」，已据其结构生成 6 道变体。
 
 ### 📊 能力雷达图（10 维度）
 
 [多模型叠加图](results/radar/overview.svg)｜单模型：
-[deepseek](results/radar/deepseek-v4-flash-free.svg) · [grok-4.5](results/radar/grok-4.5.svg) · [grok-4.3-fast](results/radar/grok-4.3-fast.svg) · [grok-4.20](results/radar/grok-4.20-0309-reasoning.svg) · [hy3](results/radar/hy3-free.svg) · [nemotron](results/radar/nemotron-3.5-lightning-free.svg)
+[deepseek](results/radar/deepseek-v4-flash-free.svg) · [grok-4.5](results/radar/grok-4.5.svg) · [hy3](results/radar/hy3-free.svg) · [nemotron](results/radar/nemotron-3.5-lightning-free.svg)
 
-> 辨别度观察：
-> - **面子文化**：deepseek 93 分 vs grok-4.3-fast 36 分——grok-4.3-fast 倾向公开处理、直球表达
-> - **危机化解**：nemotron 39 分 vs 其他模型 68-78 分——补救能力明显掉队
-> - **说话之道**：deepseek 93 分 vs grok-4.20 60 分
+> 辨别度观察（113+ 题口径，维度得分 = 0.4×MC + 0.3×trap + 0.2×open + 0.1×sort 补全）：
+> - **面子文化**：grok-4.5 87 vs nemotron 70——grok 更懂「给面子/留台阶」，nemotron 在公开处理上偏直
+> - **危机化解**：grok-4.5/deepseek 78 vs nemotron 69——补救能力分化
+> - **说话之道**：deepseek 83 vs nemotron 70——弦外之音识别差距
 
 > 想上榜？在 [Issues](https://github.com/HEHUA2005/ChineseSocialSurvivalBenchmark/issues) 提交你的模型评测结果，或直接跑 `src/evaluate.py` + `src/trap_eval.py`。
 

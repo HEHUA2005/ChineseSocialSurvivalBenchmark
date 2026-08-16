@@ -19,11 +19,14 @@ from src.dims import DIMENSIONS
 
 
 def collect_mc_errors():
-    """每个模型错题 {题id: 错比数}。"""
+    """每个模型错题 {题id: 错比数}（只统计 4 家代表模型）。"""
+    from src.leaderboard import MODELS
     err = Counter()
     details = {}
     for f in sorted(Path("results").glob("mc-*.json")):
         d = json.load(open(f, encoding="utf-8"))
+        if d.get("model") not in MODELS:
+            continue
         node = d.get("mc", {})
         for r in node.get("per_question", []):
             if not r.get("correct", False):
@@ -35,10 +38,13 @@ def collect_mc_errors():
 
 
 def collect_trap_losses():
-    """陷阱题：非最佳解（选错损失）统计。"""
+    """陷阱题：非最佳解（选错损失）统计（只统计 4 家代表模型）。"""
+    from src.leaderboard import MODELS
     err = Counter()
     for f in sorted(Path("results").glob("trap-*.json")):
         d = json.load(open(f, encoding="utf-8"))
+        if d.get("model") not in MODELS:
+            continue
         node = d.get("trap", {})
         for r in node.get("per_question", []):
             if not r.get("is_best", False):
@@ -47,17 +53,19 @@ def collect_trap_losses():
 
 
 def render_hardest(err_mc, trap_err, details, out="results/hardest.md"):
+    from src.leaderboard import MODELS
+    n_models = len(MODELS)
     lines = ["# 高区分度题型（错题本）", "",
-             "> 多模型都答错的题 = 真正的「人情世故分水岭」，数值越大概率越低。", ""]
+             f"> 多模型都答错的题 = 真正的「人情世故分水岭」，数值 x/{n_models} 是答错模型数。", ""]
     lines.append("## 客观题（多模型答错）\n\n| 题 | 维度 | 答错模型数 | 题干摘要 |")
     lines.append("|---|---|---|---|")
     for qid, n in err_mc.most_common():
         det = details.get(qid, {})
-        lines.append(f"| {qid} | {det.get('dimension','?')} | **{n}/6** | {det.get('scenario','')} |")
+        lines.append(f"| {qid} | {det.get('dimension','?')} | **{n}/{n_models}** | {det.get('scenario','')} |")
     lines.append("\n## 陷阱题（未选损失最小解）\n\n| 题 | 未选最佳解模型数 |")
     lines.append("|---|---|")
     for qid, n in trap_err.most_common():
-        lines.append(f"| {qid} | **{n}/6** |")
+        lines.append(f"| {qid} | **{n}/{n_models}** |")
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     Path(out).write_text("\n".join(lines), encoding="utf-8")
     print(f"→ {out}")
@@ -123,6 +131,8 @@ def make_variant(client, q):
 
 if __name__ == "__main__":
     import argparse
+    from src.leaderboard import MODELS
+    n_models = len(MODELS)
     ap = argparse.ArgumentParser()
     ap.add_argument("--variants", type=int, default=6, help="生成的变体数量(<=k)")
     ap.add_argument("--model", type=str, default=None)
@@ -132,7 +142,7 @@ if __name__ == "__main__":
     render_hardest(err_mc, trap_err, details)
     print("\n高区分度客观题 top：")
     for qid, n in err_mc.most_common(8):
-        print(f"  {qid}  {n}/6 模型答错")
+        print(f"  {qid}  {n}/{n_models} 模型答错")
     if args.variants and args.variants > 0:
         print("\n开始生成变体题（保留陷阱结构，换肤）...")
         from src.client import LLMClient

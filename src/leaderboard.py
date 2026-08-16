@@ -12,8 +12,9 @@ from pathlib import Path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 MODELS = [
-    "grok-4.5", "grok-4.3-fast", "grok-4.20-0309-reasoning",
-    "hy3-free", "nemotron-3.5-lightning-free", "deepseek-v4-flash-free",
+    # 每厂商一个代表模型（节省 API，聚焦设计）
+    "grok-4.5", "deepseek-v4-flash-free", "hy3-free",
+    "nemotron-3.5-lightning-free",
 ]
 
 W = {"mc": 0.33, "trap": 0.23, "open": 0.17, "sort": 0.10, "mt": 0.09, "stab": 0.08}

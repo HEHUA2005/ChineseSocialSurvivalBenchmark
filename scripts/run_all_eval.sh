@@ -8,12 +8,10 @@ export RENQING_BENCH_API_KEY="sk-your-key-here"
 export RENQING_BENCH_API_BASE="https://api.example.com/v1"
 
 MODELS=(
+  "grok-4.5"
+  "deepseek-v4-flash-free"
   "hy3-free"
   "nemotron-3.5-lightning-free"
-  "deepseek-v4-flash-free"
-  "grok-4.5"
-  "grok-4.3-fast"
-  "grok-4.20-0309-reasoning"
 )
 STAGE="${1:-all}"
 PY=python3

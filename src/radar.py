@@ -157,16 +157,22 @@ def multi_radar_svg(score_map: dict, title="多模型对比", w=720, h=720):
     return "".join(parts)
 
 
+KEEP_MODELS = [
+    "grok-4.5", "deepseek-v4-flash-free", "hy3-free",
+    "nemotron-3.5-lightning-free",
+]  # 每厂商一个代表模型
+
+
 def build_all(out_dir="results/radar"):
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     models = []
     for f in sorted(Path("results").glob("mc-*.json")):
         d = json.load(open(f, encoding="utf-8"))
-        if d["model"] not in models:
+        if d["model"] in KEEP_MODELS and d["model"] not in models:
             models.append(d["model"])
     for f in sorted(Path("results").glob("trap-*.json")):
         d = json.load(open(f, encoding="utf-8"))
-        if d["model"] not in models:
+        if d["model"] in KEEP_MODELS and d["model"] not in models:
             models.append(d["model"])
     print("参与雷达图的模型:", models)
     score_map = {}
