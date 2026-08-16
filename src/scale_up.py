@@ -29,6 +29,8 @@ def backup(dir_path, tag):
 
 
 def run_mc(client, batches):
+    # 难度轮换：每批 3 题里 易/中/难 各 1，保证难度梯度
+    diff_wheel = ["容易", "中等", "难"]
     for b in range(batches):
         tag = f"b{b+1}"
         backup("data/out/mc_raw", tag)
@@ -36,7 +38,7 @@ def run_mc(client, batches):
         from concurrent.futures import ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=4) as pool:
             list(pool.map(lambda dim: generate_batch(
-                client, dim, 3, "中等", out_dir="data/out/mc_raw"), MC_DIMS))
+                client, dim, 3, diff_wheel[b % 3], out_dir="data/out/mc_raw"), MC_DIMS))
         time.sleep(3)
 
 
