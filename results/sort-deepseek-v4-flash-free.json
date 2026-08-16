@@ -1,0 +1,289 @@
+{
+  "model": "deepseek-v4-flash-free",
+  "tag": "deepseek-v4-flash-free",
+  "sort": {
+    "per_question": [
+      {
+        "id": "sort-说话之道-002",
+        "dimension": "说话之道",
+        "model_order": [
+          "B",
+          "D",
+          "C",
+          "A",
+          "E"
+        ],
+        "correct_order": [
+          "D",
+          "B",
+          "C",
+          "A",
+          "E"
+        ],
+        "tau": 0.8,
+        "top_ok": false,
+        "worst_ok": true,
+        "penalty_mae": 0.8,
+        "reason": "B不伤和气，D转移话题，C勉强同意，A威胁，E最重。"
+      },
+      {
+        "id": "sort-饭局礼仪-005",
+        "dimension": "饭局礼仪",
+        "model_order": [
+          "C",
+          "B",
+          "A",
+          "D",
+          "E"
+        ],
+        "correct_order": [
+          "C",
+          "B",
+          "A",
+          "D",
+          "E"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "C自嘲化解最轻，B转移话题次之，A辩解易引冲突，D威胁严重，E绝交最重。"
+      },
+      {
+        "id": "sort-面子文化-007",
+        "dimension": "面子文化",
+        "model_order": [
+          "E",
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "correct_order": [
+          "E",
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "E先扬后抑最稳妥；B委婉否定；A直接反对；C激烈指责；D辱骂最重。"
+      },
+      {
+        "id": "sort-人情往来-012",
+        "dimension": "人情往来",
+        "model_order": [
+          "C",
+          "A",
+          "B",
+          "D",
+          "E"
+        ],
+        "correct_order": [
+          "A",
+          "B",
+          "D",
+          "C",
+          "E"
+        ],
+        "tau": 0.4,
+        "top_ok": false,
+        "worst_ok": true,
+        "penalty_mae": 2.4,
+        "reason": "C顺从最轻，A礼貌次之，B条件拒绝，D甩锅，E直接贬斥最重"
+      },
+      {
+        "id": "sort-人情往来-013",
+        "dimension": "人情往来",
+        "model_order": [
+          "D",
+          "A",
+          "C",
+          "B",
+          "E"
+        ],
+        "correct_order": [
+          "D",
+          "A",
+          "C",
+          "B",
+          "E"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "D最温和，A冷淡但留余地，C直接僵局，B嘲讽，E辱骂最严重"
+      },
+      {
+        "id": "sort-分寸与边界-018",
+        "dimension": "分寸与边界",
+        "model_order": [
+          "D",
+          "E",
+          "C",
+          "B",
+          "A"
+        ],
+        "correct_order": [
+          "D",
+          "E",
+          "C",
+          "B",
+          "A"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "D最得体转移话题，E带酸意，C制止，B反击威胁，A当众辱骂最重。"
+      },
+      {
+        "id": "sort-分寸与边界-020",
+        "dimension": "分寸与边界",
+        "model_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correct_order": [
+          "A",
+          "D",
+          "C",
+          "B",
+          "E"
+        ],
+        "tau": 0.4,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 1.6,
+        "reason": "A最委婉，B较直，C讽刺，D拉领导且暗示私聊，E辱骂。"
+      },
+      {
+        "id": "sort-家庭关系-021",
+        "dimension": "家庭关系",
+        "model_order": [
+          "C",
+          "D",
+          "E",
+          "B",
+          "A"
+        ],
+        "correct_order": [
+          "C",
+          "D",
+          "E",
+          "B",
+          "A"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "C最圆场，D质疑但留面子，E直接对抗，B辱骂威胁，A最激烈"
+      },
+      {
+        "id": "sort-家庭关系-023",
+        "dimension": "家庭关系",
+        "model_order": [
+          "D",
+          "B",
+          "A",
+          "C",
+          "E"
+        ],
+        "correct_order": [
+          "D",
+          "B",
+          "A",
+          "C",
+          "E"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "D最委婉，B次之，A带怨气，C辱骂，E最恶劣"
+      },
+      {
+        "id": "sort-敏感话题-024",
+        "dimension": "敏感话题",
+        "model_order": [
+          "B",
+          "C",
+          "A",
+          "E",
+          "D"
+        ],
+        "correct_order": [
+          "C",
+          "B",
+          "A",
+          "E",
+          "D"
+        ],
+        "tau": 0.8,
+        "top_ok": false,
+        "worst_ok": true,
+        "penalty_mae": 0.8,
+        "reason": "B最委婉，C转移话题，A指责，E贬低，D辱骂最重。"
+      },
+      {
+        "id": "sort-敏感话题-025",
+        "dimension": "敏感话题",
+        "model_order": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "B"
+        ],
+        "correct_order": [
+          "A",
+          "D",
+          "C",
+          "E",
+          "B"
+        ],
+        "tau": 0.8,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.8,
+        "reason": "A最温和，B最冒犯；C留余地，D显轻视，E直质问，程度递增。"
+      },
+      {
+        "id": "sort-危机化解-028",
+        "dimension": "危机化解",
+        "model_order": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "A"
+        ],
+        "correct_order": [
+          "B",
+          "C",
+          "D",
+          "E",
+          "A"
+        ],
+        "tau": 1.0,
+        "top_ok": true,
+        "worst_ok": true,
+        "penalty_mae": 0.0,
+        "reason": "B回避最轻，C服从，D建议，E直接反对，A攻击最重。"
+      }
+    ],
+    "avg_tau": 0.85,
+    "top_accuracy": 0.75,
+    "worst_guard_rate": 1.0,
+    "avg_penalty_mae": 0.53,
+    "total": 12
+  }
+}

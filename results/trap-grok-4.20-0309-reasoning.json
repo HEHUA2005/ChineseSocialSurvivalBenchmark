@@ -10,17 +10,27 @@
         "penalty": 11,
         "score": 63.3,
         "is_best": false,
-        "reason": "温和提问题不伤面子，平衡评价最稳",
+        "reason": "先扬后抑温和提建议，保全面子最稳妥",
         "best_label": "D"
       },
       {
-        "id": "trap-面子文化-008",
-        "dimension": "面子文化",
-        "choice": "B",
-        "penalty": 29,
-        "score": 3.3,
+        "id": "trap-说话之道-002",
+        "dimension": "说话之道",
+        "choice": "C",
+        "penalty": 4,
+        "score": 86.7,
         "is_best": false,
-        "reason": "直接回应主人，主动让位护同事",
+        "reason": "私下建议领导改数据，避后续追责",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-面子文化-007",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "爽快让位并帮端饮料，显示尊重与服务态度",
         "best_label": "A"
       },
       {
@@ -30,17 +40,27 @@
         "penalty": 10,
         "score": 66.7,
         "is_best": false,
-        "reason": "轻描淡写过失显公正，领导认可且少得罪人",
+        "reason": "先总夸再轻描过失，显公正不偏倚",
         "best_label": "D"
       },
       {
         "id": "trap-人情往来-013",
         "dimension": "人情往来",
-        "choice": "C",
-        "penalty": 12,
-        "score": 60.0,
+        "choice": "A",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": true,
+        "reason": "遵循暗示优雅喝水后让位，减少尴尬",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-人情往来-014",
+        "dimension": "人情往来",
+        "choice": "D",
+        "penalty": 8,
+        "score": 73.3,
         "is_best": false,
-        "reason": "默默献水给领导，低调尊重避尴尬",
+        "reason": "间接支持领导，避免直接得罪同事",
         "best_label": "A"
       },
       {
@@ -50,7 +70,7 @@
         "penalty": 2,
         "score": 93.3,
         "is_best": true,
-        "reason": "礼貌解释有限，建议后续补充，最稳妥",
+        "reason": "礼貌解释有限建议稍后，维护面子最小损失",
         "best_label": "A"
       },
       {
@@ -60,7 +80,17 @@
         "penalty": 8,
         "score": 73.3,
         "is_best": true,
-        "reason": "遵循暗示让座新同事，最稳妥",
+        "reason": "让座给新同事，符合暗示且显示谦虚稳妥",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-分寸与边界-019",
+        "dimension": "分寸与边界",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "遵循领导顺序，尊重资深甲多说优点",
         "best_label": "A"
       },
       {
@@ -70,7 +100,7 @@
         "penalty": 4,
         "score": 86.7,
         "is_best": true,
-        "reason": "沉默正面回应，避免冲突最稳妥",
+        "reason": "沉默且正面回应，避免任何抱怨冲突",
         "best_label": "D"
       },
       {
@@ -80,7 +110,7 @@
         "penalty": 2,
         "score": 93.3,
         "is_best": true,
-        "reason": "优先帮困难六叔并解释，礼貌拒七叔减少冲突",
+        "reason": "优先帮经济困难六叔，礼貌拒七叔减损失",
         "best_label": "A"
       },
       {
@@ -90,7 +120,7 @@
         "penalty": 5,
         "score": 83.3,
         "is_best": true,
-        "reason": "低调给舅妈说给小辈用，避免尴尬",
+        "reason": "低调给舅妈避尴尬，减少比较",
         "best_label": "D"
       },
       {
@@ -100,17 +130,17 @@
         "penalty": 2,
         "score": 93.3,
         "is_best": true,
-        "reason": "优雅让位不直接冲突，损失最小",
+        "reason": "间接让座不伤和气，显主动礼貌",
         "best_label": "A"
       },
       {
         "id": "trap-敏感话题-025",
         "dimension": "敏感话题",
-        "choice": "A",
-        "penalty": 13,
-        "score": 56.7,
-        "is_best": false,
-        "reason": "公开转交说明私事，让其自处，透明稳妥",
+        "choice": "D",
+        "penalty": 16,
+        "score": 46.7,
+        "is_best": true,
+        "reason": "私下提醒不收酒，关系好且损失最小",
         "best_label": "D"
       },
       {
@@ -120,59 +150,353 @@
         "penalty": 6,
         "score": 80.0,
         "is_best": true,
-        "reason": "私下转交护脸面，避免公开尴尬",
+        "reason": "私下转交避公开尴尬，留收据自保",
         "best_label": "D"
+      },
+      {
+        "id": "trap-说话之道-000",
+        "dimension": "说话之道",
+        "choice": "B",
+        "penalty": 9,
+        "score": 70.0,
+        "is_best": true,
+        "reason": "轻描淡写说明短缺，不针对个人",
+        "best_label": "B"
+      },
+      {
+        "id": "trap-面子文化-006",
+        "dimension": "面子文化",
+        "choice": "C",
+        "penalty": 4,
+        "score": 86.7,
+        "is_best": true,
+        "reason": "低调沉默不介入，避免直接得罪领导或任何一方",
+        "best_label": "C"
+      },
+      {
+        "id": "trap-职场潜规则-009",
+        "dimension": "职场潜规则",
+        "choice": "D",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": false,
+        "reason": "感谢支持并主动申请预算，减少冲突",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-拒绝的艺术-016",
+        "dimension": "拒绝的艺术",
+        "choice": "B",
+        "penalty": 6,
+        "score": 80.0,
+        "is_best": false,
+        "reason": "接受领导好意，避免直接拒绝尴尬",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-家庭关系-022",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 9,
+        "score": 70.0,
+        "is_best": true,
+        "reason": "A不提功劳大，避免争功或炫耀",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-敏感话题-025",
+        "dimension": "敏感话题",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "尊重长者象征长寿，处理得体避尴尬",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-危机化解-027",
+        "dimension": "危机化解",
+        "choice": "D",
+        "penalty": 9,
+        "score": 70.0,
+        "is_best": true,
+        "reason": "私下委婉拒礼，维护领导面子",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-饭局礼仪-003",
+        "dimension": "饭局礼仪",
+        "choice": "A",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": true,
+        "reason": "礼貌周全敬所有人，表达感谢最小化冲突",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-面子文化-006",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": false,
+        "reason": "公平分配，避免明显偏袒关系好的同事",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-职场潜规则-010",
+        "dimension": "职场潜规则",
+        "choice": "A",
+        "penalty": 11,
+        "score": 63.3,
+        "is_best": true,
+        "reason": "私下纠正维护领导面子且避免误导",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-职场潜规则-011",
+        "dimension": "职场潜规则",
+        "choice": "C",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": true,
+        "reason": "轻声纠正保面子，确保决策正确",
+        "best_label": "C"
+      },
+      {
+        "id": "trap-分寸与边界-019",
+        "dimension": "分寸与边界",
+        "choice": "A",
+        "penalty": 6,
+        "score": 80.0,
+        "is_best": true,
+        "reason": "先后帮两人，平衡关系减损失",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-家庭关系-021",
+        "dimension": "家庭关系",
+        "choice": "C",
+        "penalty": 12,
+        "score": 60.0,
+        "is_best": false,
+        "reason": "私下提醒保领导面子，公开轻提纠错稳妥",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-危机化解-026",
+        "dimension": "危机化解",
+        "choice": "B",
+        "penalty": 18,
+        "score": 40.0,
+        "is_best": false,
+        "reason": "优先对方实权领导，己方让步避关键风险",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-说话之道-000",
+        "dimension": "说话之道",
+        "choice": "A",
+        "penalty": 6,
+        "score": 80.0,
+        "is_best": false,
+        "reason": "维持和谐氛围，避免得罪领导",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-说话之道-001",
+        "dimension": "说话之道",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": false,
+        "reason": "积极支持领导，表态正面减少风险",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-饭局礼仪-003",
+        "dimension": "饭局礼仪",
+        "choice": "D",
+        "penalty": 13,
+        "score": 56.7,
+        "is_best": true,
+        "reason": "优先给领导，显示尊重与担当",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-饭局礼仪-004",
+        "dimension": "饭局礼仪",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "直接行动减少讨论，损失最小",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-面子文化-007",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 5,
+        "score": 83.3,
+        "is_best": true,
+        "reason": "直接说明实际困难，最诚恳稳妥",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-面子文化-008",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "优先上司，减少直接得罪风险",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-人情往来-014",
+        "dimension": "人情往来",
+        "choice": "D",
+        "penalty": 8,
+        "score": 73.3,
+        "is_best": false,
+        "reason": "顺势离场给足面子，避免多方尴尬",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-拒绝的艺术-017",
+        "dimension": "拒绝的艺术",
+        "choice": "A",
+        "penalty": 7,
+        "score": 76.7,
+        "is_best": true,
+        "reason": "平衡批甲赞乙，避免直接得罪，损失最小",
+        "best_label": "A"
       },
       {
         "id": "trap-危机化解-029",
         "dimension": "危机化解",
         "choice": "A",
-        "penalty": 7,
-        "score": 76.7,
+        "penalty": 4,
+        "score": 86.7,
         "is_best": true,
-        "reason": "优先资深领导，尊重层级减风险",
+        "reason": "轻声提醒纠错，顺势引导讨论，兼顾面子与正确方向",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-面子文化-006",
+        "dimension": "面子文化",
+        "choice": "A",
+        "penalty": 2,
+        "score": 93.3,
+        "is_best": true,
+        "reason": "主动让位帮圆场，损失最小",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-职场潜规则-009",
+        "dimension": "职场潜规则",
+        "choice": "C",
+        "penalty": 13,
+        "score": 56.7,
+        "is_best": true,
+        "reason": "提前请示领导确认，私下安排减少冲突",
+        "best_label": "C"
+      },
+      {
+        "id": "trap-拒绝的艺术-016",
+        "dimension": "拒绝的艺术",
+        "choice": "A",
+        "penalty": 16,
+        "score": 46.7,
+        "is_best": true,
+        "reason": "委婉拒绝不越界，兼顾口渴，损失最小",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-家庭关系-021",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 10,
+        "score": 66.7,
+        "is_best": false,
+        "reason": "委婉 defer 并转移至工作话题，减少冲突",
+        "best_label": "D"
+      },
+      {
+        "id": "trap-家庭关系-022",
+        "dimension": "家庭关系",
+        "choice": "D",
+        "penalty": 15,
+        "score": 50.0,
+        "is_best": false,
+        "reason": "微笑转话题保和谐面子",
+        "best_label": "C"
+      },
+      {
+        "id": "trap-家庭关系-023",
+        "dimension": "家庭关系",
+        "choice": "A",
+        "penalty": 6,
+        "score": 80.0,
+        "is_best": true,
+        "reason": "当场交付后迅速离开，减少公众关注",
+        "best_label": "A"
+      },
+      {
+        "id": "trap-危机化解-029",
+        "dimension": "危机化解",
+        "choice": "A",
+        "penalty": 9,
+        "score": 70.0,
+        "is_best": true,
+        "reason": "快速倒满从容关怀，及时且专业",
         "best_label": "A"
       }
     ],
-    "avg_score": 71.5,
-    "best_rate": 0.615,
-    "total": 13,
+    "avg_score": 73.9,
+    "best_rate": 0.689,
+    "total": 45,
     "by_dimension": {
       "说话之道": {
-        "n": 1,
-        "avg_score": 63.3
+        "n": 5,
+        "avg_score": 75.34
       },
       "面子文化": {
-        "n": 1,
-        "avg_score": 3.3
+        "n": 6,
+        "avg_score": 87.76666666666667
       },
       "职场潜规则": {
-        "n": 1,
-        "avg_score": 66.7
+        "n": 5,
+        "avg_score": 66.02000000000001
       },
       "人情往来": {
-        "n": 1,
-        "avg_score": 60.0
+        "n": 3,
+        "avg_score": 71.10000000000001
       },
       "拒绝的艺术": {
-        "n": 1,
-        "avg_score": 93.3
+        "n": 4,
+        "avg_score": 74.175
       },
       "分寸与边界": {
-        "n": 2,
-        "avg_score": 80.0
+        "n": 4,
+        "avg_score": 79.175
       },
       "家庭关系": {
-        "n": 2,
-        "avg_score": 88.3
+        "n": 7,
+        "avg_score": 71.9
       },
       "敏感话题": {
-        "n": 2,
-        "avg_score": 75.0
+        "n": 3,
+        "avg_score": 72.23333333333333
       },
       "危机化解": {
-        "n": 2,
-        "avg_score": 78.35
+        "n": 5,
+        "avg_score": 69.34
+      },
+      "饭局礼仪": {
+        "n": 3,
+        "avg_score": 66.7
       }
     }
   }

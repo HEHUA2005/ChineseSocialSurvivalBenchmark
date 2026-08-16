@@ -1,9 +1,209 @@
 {
   "model": "hy3-free",
   "tag": "mc-hy3-free",
-  "timestamp": "2026-08-15T12:44:51.045791",
+  "timestamp": "2026-08-16T00:07:35.568302",
   "mc": {
     "per_question": [
+      {
+        "id": "spot-000",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "小李借老同学闲聊氛围以请客指点方案为名，实则利用新晋上级身份施压下属表态支持其权威。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "小李借老同学闲聊氛围以请客指点方案为名，实则利用新晋上级身份施压下属表态支持其权威。"
+          },
+          {
+            "choice": "A",
+            "reason": "小李以同学情分和请客为名表面请教方案，实则利用新晋上级身份隐性施压你加班并共担责任。"
+          }
+        ]
+      },
+      {
+        "id": "spot-001",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "李先生作为请求方在饭局上向王总提项目要求并设期限，真实意图是半试探半施压以促对方出力帮忙。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "李先生作为请求方在饭局上向王总提项目要求并设期限，真实意图是半试探半施压以促对方出力帮忙。"
+          },
+          {
+            "choice": "D",
+            "reason": "此非字面同意或感谢，而是饭局中半试探半施压促对方出力的真实诉求。"
+          }
+        ]
+      },
+      {
+        "id": "spot-002",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "B",
+        "correct": false,
+        "reason": "小李的话是职场常见的客套关怀，表达关心与友好，并无实际求助或深层意图。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "小李的话是职场常见的客套关怀，表达关心与友好，并无实际求助或深层意图。"
+          },
+          {
+            "choice": "B",
+            "reason": "小李的话是职场常见客套关怀，关心身体与玩笑式帮忙提议均属善意寒暄，无实际求助或拉拢意图。"
+          }
+        ]
+      },
+      {
+        "id": "spot-003",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "李娜以关心消瘦没精神为切入点，实则试探张伟是否因工作压力需要倾诉或支持。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "李娜以关心消瘦没精神为切入点，实则试探张伟是否因工作压力需要倾诉或支持。"
+          },
+          {
+            "choice": "A",
+            "reason": "李娜作为好友关切张伟变瘦没精神，借询问工作压力试探他是否遇困需支持。"
+          }
+        ]
+      },
+      {
+        "id": "spot-004",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "王刚借表面客套的饭局邀约，实际试探李伟是否愿继续暧昧关系。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "王刚借表面客套的饭局邀约，实际试探李伟是否愿继续暧昧关系。"
+          },
+          {
+            "choice": "C",
+            "reason": "王刚在暧昧氛围中借客套话委婉试探李伟是否愿继续暧昧关系。"
+          }
+        ]
+      },
+      {
+        "id": "spot-005",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "人际交往中礼貌说'不用'多为真实婉拒，无隐含试探或转院意图。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "人际交往中礼貌说'不用'多为真实婉拒，无隐含试探或转院意图。"
+          },
+          {
+            "choice": "A",
+            "reason": "对方在微信中明确谢绝，应尊重其字面意思，避免过度解读为客气或试探。"
+          }
+        ]
+      },
+      {
+        "id": "spot-007",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "背景明确二人因孩子换小学需互相帮忙，聊此事真实意图即双方协作互助，最符合字面与情境。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "背景明确二人因孩子换小学需互相帮忙，聊此事真实意图即双方协作互助，最符合字面与情境。"
+          },
+          {
+            "choice": "A",
+            "reason": "背景明确说明两人因孩子换小学需要互相帮忙，真实意图就是互利互助，无隐藏动机。"
+          }
+        ]
+      },
+      {
+        "id": "spot-008",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "王伟主动递上自拟提案并轻声请求肯定答复，真实意图是希望李明以主管兼兄弟身份批准其提案。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "王伟主动递上自拟提案并轻声请求肯定答复，真实意图是希望李明以主管兼兄弟身份批准其提案。"
+          },
+          {
+            "choice": "C",
+            "reason": "王伟主动递上自准备的提案并轻声求肯定答复，真实意图是借亲密关系让主管李明批准其提案，而非推责或不关心。"
+          }
+        ]
+      },
+      {
+        "id": "spot-010",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "题干明确指出王丽实际希望张伟再坚持送她一程，以试探婚姻关系的稳定与关心。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "题干明确指出王丽实际希望张伟再坚持送她一程，以试探婚姻关系的稳定与关心。"
+          },
+          {
+            "choice": "B",
+            "reason": "题干明确指出王丽实际希望张伟再坚持送她一程，以试探婚姻关系是否稳定。"
+          }
+        ]
+      },
+      {
+        "id": "spot-013",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "小李创业多亏经济紧张，嘴上请客随便点是死要面子，真实意图是点便宜菜掩饰窘境、维持节俭形象。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "小李创业多亏经济紧张，嘴上请客随便点是死要面子，真实意图是点便宜菜掩饰窘境、维持节俭形象。"
+          },
+          {
+            "choice": "C",
+            "reason": "小李虽创业亏损但已获稳定岗位介绍，主动请客是真诚叙旧或感谢，不想让老同学承担负担。"
+          }
+        ]
+      },
       {
         "id": "人情往来-001",
         "dimension": "人情往来",
@@ -11,7 +211,18 @@
         "answer": "C",
         "model_choice": "C",
         "correct": true,
-        "reason": "孙磊温和地给小张台阶下，将过去合作说成打拼回报，既照顾面子又自然提供实习机会。"
+        "reason": "孙磊温和地给小张台阶下，肯定其子并主动提供实习机会，将过往矛盾转化为回报，照顾对方面子。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "孙磊温和地给小张台阶下，肯定其子并主动提供实习机会，将过往矛盾转化为回报，照顾对方面子。"
+          },
+          {
+            "choice": "C",
+            "reason": "孙磊温和地给小张台阶下，不提推责旧怨而以共同打拼回报为由维护对方面子，并承诺安排导师，最为得体。"
+          }
+        ]
       },
       {
         "id": "人情往来-002",
@@ -20,7 +231,198 @@
         "answer": "C",
         "model_choice": "D",
         "correct": false,
-        "reason": "小张正怒且已离开，不宜当场辩解，假装未见并邀酒模糊认错既给恩人台阶又留后续解释余地。"
+        "reason": "先低头认错请酒给主管台阶下，维护恩人面子，事后私下再解释误会最得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "先低头认错请酒给主管台阶下，维护恩人面子，事后私下再解释误会最得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "对恩人主管应给足面子，对方已离开且误会时不宜公开辩解，主动邀约喝酒道歉可缓和关系并创造私下解释机会。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-003",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "C选项既避免将领导卷入纠纷，又尝试在自身权限内委婉安抚客户，相对最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "C选项既避免将领导卷入纠纷，又尝试在自身权限内委婉安抚客户，相对最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "业务经理应优先在自身权限内化解纠纷、避免惊动领导，C以补偿方式安抚客户并拦阻其找领导，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-008",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "肯定工作表现并委婉提醒融入团队，符合初次私下评价的分寸。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "肯定工作表现并委婉提醒融入团队，符合初次私下评价的分寸。"
+          },
+          {
+            "choice": "C",
+            "reason": "肯定工作表现并点出融入团队的需要，契合提升绩效与融入的初衷。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-009",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "接杯显尊重，委婉说明酒量小并关心对方，既不硬喝伤身也不扫兴。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "接杯显尊重，委婉说明酒量小并关心对方，既不硬喝伤身也不扫兴。"
+          },
+          {
+            "choice": "A",
+            "reason": "接杯致谢并说明酒量小，既尊重主人又如实婉拒，得体周全。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-010",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "碰杯示敬后以胃不好委婉拒绝，既给大爷面子又如实推脱，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "碰杯示敬后以胃不好委婉拒绝，既给大爷面子又如实推脱，最为得体。"
+          },
+          {
+            "choice": "A",
+            "reason": "接杯碰杯显尊重，以胃不好委婉拒喝兼顾情面与健康。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-011",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "笑着安慰既照顾闺蜜情绪又委婉暗示情况非负面，避免饭局上纠正引发尴尬，自然拉回安全话题。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "笑着安慰既照顾闺蜜情绪又委婉暗示情况非负面，避免饭局上纠正引发尴尬，自然拉回安全话题。"
+          },
+          {
+            "choice": "B",
+            "reason": "笑着安慰既安抚闺蜜情绪，又委婉暗示非真下岗，避免拆穿尴尬，得体拉回安全话题。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-016",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "先共情理解她的难处，再自然转移话题避免尴尬评判，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "先共情理解她的难处，再自然转移话题避免尴尬评判，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "先共情认可不易，再转移话题化解尴尬，避免妄加评判或虚假安慰伤了闺蜜情。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-017",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "在公开聚会场合应避免提及私下催债及敏感话题，敬酒转移话题最为得体稳妥。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "在公开聚会场合应避免提及私下催债及敏感话题，敬酒转移话题最为得体稳妥。"
+          },
+          {
+            "choice": "D",
+            "reason": "在公开聚会场合应回避私下催债的敏感话题，敬酒转移话题既给韩总面子又遵守了保密叮嘱"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-019",
+        "dimension": "人情往来",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "委婉指出新手特点并表达积极预期，既回应了领导又不让新员工难堪。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "委婉指出新手特点并表达积极预期，既回应了领导又不让新员工难堪。"
+          },
+          {
+            "choice": "A",
+            "reason": "委婉指出新手特点并表达积极融入信心，既给领导台阶又维护新员工尊严。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-001",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "委婉以家事解释缺席，表达补上遗憾与参与后续聚会的诚意，顾及王强留座心意。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "委婉以家事解释缺席，表达补上遗憾与参与后续聚会的诚意，顾及王强留座心意。"
+          },
+          {
+            "choice": "B",
+            "reason": "既说明原因致歉，又表达补上婚礼和参与后续聚会的诚意，照顾了老同事情谊。"
+          }
+        ]
       },
       {
         "id": "分寸与边界-002",
@@ -29,7 +431,458 @@
         "answer": "D",
         "model_choice": "D",
         "correct": true,
-        "reason": "老员工应先私下明确新领导期望，再以修正方案在后续会议证明能力，既保全面子又保住职位。"
+        "reason": "先私下了解领导工作要求并后续在会议提出修正方案，既避免公开冲突又展现专业尽责。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "先私下了解领导工作要求并后续在会议提出修正方案，既避免公开冲突又展现专业尽责。"
+          },
+          {
+            "choice": "D",
+            "reason": "先私下了解领导要求并后续会议提修正方案，既避免公开冲突又展现专业，最利保住职位。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-003",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "用“喝一杯”轻量邀约且未提项目奖金，避免功利嫌疑，私发微信询问更委婉得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "用“喝一杯”轻量邀约且未提项目奖金，避免功利嫌疑，私发微信询问更委婉得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "私下微信委婉邀约喝一杯，自然表达感谢且避免直接请饭的唐突与功利嫌疑。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-004",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "既通过秘书走流程报备简历，又主动电话联系老同事了解情况，兼顾公司规章与人情往来。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "既通过秘书走流程报备简历，又主动电话联系老同事了解情况，兼顾公司规章与人情往来。"
+          },
+          {
+            "choice": "C",
+            "reason": "按流程转交简历并电话沟通，既不违规承诺也不生硬拒绝，得体兼顾原则与人情。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-010",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "诚恳赞美对方家庭的温暖人情味，不暴露自身优越感且尊重对方，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "诚恳赞美对方家庭的温暖人情味，不暴露自身优越感且尊重对方，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "诚恳赞美对方家庭的温暖人情味，既不暴露自身优越也不伤对方自尊，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-011",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "未评判丈夫或转嫁责任，以泛化安慰缓解情绪且不伤闺蜜和气",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "未评判丈夫或转嫁责任，以泛化安慰缓解情绪且不伤闺蜜和气"
+          },
+          {
+            "choice": "A",
+            "reason": "在闺蜜情绪宣泄时给予温和安抚且不妄加评判或激化矛盾，相对最得体。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-012",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "以笑婉拒并给理由，既保持礼貌又不伤初交面子，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "以笑婉拒并给理由，既保持礼貌又不伤初交面子，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "在初识阶段委婉拒绝饮酒，既不得罪人又表明态度，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-013",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "温和地提出还款要求并说明自身资金需求，既维护友情又解决实际问题。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "温和地提出还款要求并说明自身资金需求，既维护友情又解决实际问题。"
+          },
+          {
+            "choice": "C",
+            "reason": "温和地提出还款要求并说明自身资金需求，既维护友情又解决实际问题。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-015",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "借领导看重女儿婚礼的时机以庆祝为名邀约，既顺应妻子建议又表达祝贺诚意，最易拉近关系。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "借领导看重女儿婚礼的时机以庆祝为名邀约，既顺应妻子建议又表达祝贺诚意，最易拉近关系。"
+          },
+          {
+            "choice": "C",
+            "reason": "借领导看重的小女儿婚礼日邀约庆祝，既顺应妻子建议又自然得体，能拉近关系让领导高兴。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-020",
+        "dimension": "分寸与边界",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "私下坦诚归功于小王，既化解捧杀又维护同事关系。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "私下坦诚归功于小王，既化解捧杀又维护同事关系。"
+          },
+          {
+            "choice": "A",
+            "reason": "私下点出方案实由小王细化，坦诚化解捧杀且不失礼貌。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-002",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "严明冒犯后最得体的是主动补救，拍肩理解并罚酒道歉能照顾对方面子、化解尴尬。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "严明冒犯后最得体的是主动补救，拍肩理解并罚酒道歉能照顾对方面子、化解尴尬。"
+          },
+          {
+            "choice": "C",
+            "reason": "主动理解张伟并敬酒道歉，大方化解尴尬最得体。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-003",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "A以谦虚口吻淡化条件差异并表达诚意，既未隐瞒真实情况也未傲慢贬低，最照顾对方父母感受。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "A以谦虚口吻淡化条件差异并表达诚意，既未隐瞒真实情况也未傲慢贬低，最照顾对方父母感受。"
+          },
+          {
+            "choice": "B",
+            "reason": "拉平家庭条件差异可消除对方父母的高攀顾虑，照顾对方面子最得体。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-004",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "张伟未出席但收到王总心意，私下托小李转达歉意与感谢既回应了重视又不过分张扬，相对最得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "张伟未出席但收到王总心意，私下托小李转达歉意与感谢既回应了重视又不过分张扬，相对最得体。"
+          },
+          {
+            "choice": "A",
+            "reason": "因家事缺席情有可原，托小李向相关同事领导说明原委并感谢王总安排，既澄清误会又表达感恩，相对最得体。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-005",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "婉拒同事代付并说明是给领导的个人礼物，可避免职场误会和利益纠缠。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "婉拒同事代付并说明是给领导的个人礼物，可避免职场误会和利益纠缠。"
+          },
+          {
+            "choice": "D",
+            "reason": "给领导送礼属个人心意，应坦诚拒绝同事掺入并说明款项用途以避免误会。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-008",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "A",
+        "correct": false,
+        "reason": "公开场合先承担应有责任，不推诿不卖惨，维护老板权威并保持职业态度，事出有因可会后沟通。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "公开场合先承担应有责任，不推诿不卖惨，维护老板权威并保持职业态度，事出有因可会后沟通。"
+          },
+          {
+            "choice": "A",
+            "reason": "公开场合应先承认自身责任，不推诿卖惨，展现担当并维护上级权威。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-010",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "小王温和肯定老李成就，不拆台不争功，符合职场朋友间得体的社交分寸。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "小王温和肯定老李成就，不拆台不争功，符合职场朋友间得体的社交分寸。"
+          },
+          {
+            "choice": "C",
+            "reason": "小王未参与却遭误夸，得体做法是淡化自身、真诚肯定老李，维护双方颜面与聚会气氛。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-011",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "私下礼貌确认分工既保持专业风度，又避免得罪背景深厚的老同事，是稳妥得体的做法。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "私下礼貌确认分工既保持专业风度，又避免得罪背景深厚的老同事，是稳妥得体的做法。"
+          },
+          {
+            "choice": "C",
+            "reason": "职场得体做法是控制情绪，私下礼貌确认分工以间接提醒而不撕破脸。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-012",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "私下委婉提醒既保全多年私交与下属颜面，又能及时纠正违规风险确保汇报稳妥。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "私下委婉提醒既保全多年私交与下属颜面，又能及时纠正违规风险确保汇报稳妥。"
+          },
+          {
+            "choice": "B",
+            "reason": "私下委婉沟通既履行主管纠错职责，又顾及多年私交避免小王难堪，确保紧急调整方案后再汇报。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-013",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "王东真诚表明对林美的喜爱并坦诚父母催婚压力，既不欺骗也不贬低对方，沟通最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "王东真诚表明对林美的喜爱并坦诚父母催婚压力，既不欺骗也不贬低对方，沟通最为得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "王东真实困扰是父母催找条件好对象而非嫌弃对方，D真诚表达喜欢并说明难处，最得体。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-014",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "在闺蜜吐槽时不一味附和抱怨而是委婉引导理解对方压力并建议主动沟通，既顾全情谊又避免激化矛盾。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "在闺蜜吐槽时不一味附和抱怨而是委婉引导理解对方压力并建议主动沟通，既顾全情谊又避免激化矛盾。"
+          },
+          {
+            "choice": "C",
+            "reason": "C未否定闺蜜感受，委婉引导理解伴侣压力并建议沟通，最利于缓和矛盾。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-015",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "以大哥称呼给面子，称正与老板沟通为缓兵之计，既未承诺降价也未激化矛盾。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "以大哥称呼给面子，称正与老板沟通为缓兵之计，既未承诺降价也未激化矛盾。"
+          },
+          {
+            "choice": "C",
+            "reason": "称呼老哥给对方面子，以亏本做人情和领导把关委婉拒降价，不卑不亢。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-017",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "小林避免提及工资年龄等敏感话题，温和劝解朋友，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "小林避免提及工资年龄等敏感话题，温和劝解朋友，最为得体。"
+          },
+          {
+            "choice": "A",
+            "reason": "A选项安抚张娜情绪并委婉劝解，未提工资等敏感话题，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-018",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "领导当众立威时应避免冲突，先认错表态改进以缓和气氛并维护其权威。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "领导当众立威时应避免冲突，先认错表态改进以缓和气氛并维护其权威。"
+          },
+          {
+            "choice": "A",
+            "reason": "领导当众立威时，下属最得体做法是暂避锋芒、虚心认错并表态改进，以维护领导面子与会议秩序。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-019",
+        "dimension": "危机化解",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "以安慰方式化解现场尴尬，不拆穿且照顾对方面子。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "以安慰方式化解现场尴尬，不拆穿且照顾对方面子。"
+          },
+          {
+            "choice": "C",
+            "reason": "以玩笑式安慰给对方面子，化解现场尴尬且不拆穿，最为得体。"
+          }
+        ]
       },
       {
         "id": "家庭关系-002",
@@ -38,7 +891,218 @@
         "answer": "C",
         "model_choice": "C",
         "correct": true,
-        "reason": "主动委婉承担协调责任，态度谦和，化解领导尴尬且显担当。"
+        "reason": "微笑轻声委婉揽责，既维护领导面子又缓和气氛，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "微笑轻声委婉揽责，既维护领导面子又缓和气氛，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "微笑轻声主动承认协调不力，化解领导尴尬且态度从容得体。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-004",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "委婉拒绝违规提议并给韩总台阶下，既维持合作气氛又避免当场冲突，符合私下处理原则。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "委婉拒绝违规提议并给韩总台阶下，既维持合作气氛又避免当场冲突，符合私下处理原则。"
+          },
+          {
+            "choice": "A",
+            "reason": "委婉拒绝并引导另寻方案，既不得罪客户又避免当场冲突，符合私下处理维持合作的需求。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-007",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "王总以领导包容姿态给秘书台阶，并借向张总道歉化解尴尬，得体维护各方颜面。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "王总以领导包容姿态给秘书台阶，并借向张总道歉化解尴尬，得体维护各方颜面。"
+          },
+          {
+            "choice": "C",
+            "reason": "王总以领导姿态委婉指正秘书年轻不懂事，并主动替其向张总道歉，既维护张总面子又化解尴尬，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-009",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "私下约谈既保护朋友隐私与面子，又委婉表达相助之意，避免公开尴尬。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "私下约谈既保护朋友隐私与面子，又委婉表达相助之意，避免公开尴尬。"
+          },
+          {
+            "choice": "C",
+            "reason": "私下沟通借钱与人事调整可避免尴尬，维护朋友情面与隐私。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-010",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "老王存款仅三万无力借十万，婉拒并介绍朋友既坦诚又保全朋友面子。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "老王存款仅三万无力借十万，婉拒并介绍朋友既坦诚又保全朋友面子。"
+          },
+          {
+            "choice": "A",
+            "reason": "老王存款仅三万无力借十万，婉拒并介绍朋友既坦诚又顾及多年友情。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-012",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "在同事面前不动声色地继续用餐交谈，避免误会公开化，是职场中最得体的处理方式。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "在同事面前不动声色地继续用餐交谈，避免误会公开化，是职场中最得体的处理方式。"
+          },
+          {
+            "choice": "A",
+            "reason": "在公开场合突遭同事家人私信指责，不动声色维持表面和谐避免冲突，事后澄清更显得体。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-013",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "B",
+        "correct": false,
+        "reason": "委婉说明国企选人标准与部门现状，建议先观察，既给亲戚面子又留有余地，避免直接拒绝伤和气。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "委婉说明国企选人标准与部门现状，建议先观察，既给亲戚面子又留有余地，避免直接拒绝伤和气。"
+          },
+          {
+            "choice": "B",
+            "reason": "老王未直接拒绝，而是客观说明部门现状与选人要求，建议先观察试岗，既顾全亲戚情面又实事求是。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-014",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "先敬酒抿一口给长辈面子，再以酒量有限委婉拒喝，既尊重又不伤和气。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "先敬酒抿一口给长辈面子，再以酒量有限委婉拒喝，既尊重又不伤和气。"
+          },
+          {
+            "choice": "A",
+            "reason": "端杯示敬并委婉以身体不适推脱，既给长辈面子又避免饮酒伤身。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-016",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "以团队合作回应彰显大度，避免拆穿同事抢功的尴尬，维系职场和谐与人际体面。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "以团队合作回应彰显大度，避免拆穿同事抢功的尴尬，维系职场和谐与人际体面。"
+          },
+          {
+            "choice": "A",
+            "reason": "以团队合作回应既避免尴尬又含蓄表明自身贡献，符合国企和谐人情世故。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-017",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "老王需化解尴尬，淡化老刘问题并劝张杰包容以维持团队和气。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "老王需化解尴尬，淡化老刘问题并劝张杰包容以维持团队和气。"
+          },
+          {
+            "choice": "C",
+            "reason": "老王主动轻描淡写评价并劝包容，既化解自身尴尬又维护饭局和气与同事关系。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-019",
+        "dimension": "家庭关系",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "李明淡淡回应并继续忙碌，既保持表面客气又不激化矛盾，得体化解抢功尴尬。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "李明淡淡回应并继续忙碌，既保持表面客气又不激化矛盾，得体化解抢功尴尬。"
+          },
+          {
+            "choice": "D",
+            "reason": "李明淡然客套回应，避免正面冲突且保持职场体面，最为得体。"
+          }
+        ]
       },
       {
         "id": "拒绝的艺术-000",
@@ -47,7 +1111,198 @@
         "answer": "C",
         "model_choice": "C",
         "correct": true,
-        "reason": "私下温和沟通既保全双方面子又明确诉求，避免公开冲突且解决实际问题。"
+        "reason": "私下温和沟通既保全双方面子又明确表达诉求，避免公开冲突且解决自身急需。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "私下温和沟通既保全双方面子又明确表达诉求，避免公开冲突且解决自身急需。"
+          },
+          {
+            "choice": "C",
+            "reason": "私下温和沟通既保全双方面子又明确表达资金需求，避免公开冲突和关系僵化。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-001",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "在关系不算亲近时，不站队不否定，建议理性沟通最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "在关系不算亲近时，不站队不否定，建议理性沟通最为得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "未否定小雨感受或站队，给出理性沟通建议，相对其他选项更得体。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-002",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "小李笑着委婉打断妈妈并坦言条件一般，既缓解虚假夸赞带来的尴尬，又将焦点拉回对人本身的认可，是相对最得体的处理。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "小李笑着委婉打断妈妈并坦言条件一般，既缓解虚假夸赞带来的尴尬，又将焦点拉回对人本身的认可，是相对最得体的处理。"
+          },
+          {
+            "choice": "A",
+            "reason": "笑着委婉打断母亲并坦诚小王家条件一般，既阻止了不得体的夸赞和请求，又表达对小王本人的认可，避免对方父母尴尬。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-005",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "新人宜避免正面冲突，假装未闻并私下约饭示好以化解偏见，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "新人宜避免正面冲突，假装未闻并私下约饭示好以化解偏见，最为得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "小李新入职，假装没听见并私下约饭示好，既不拆穿尴尬又缓和关系，符合职场人情世故。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-009",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "委婉表达方案有改动空间并建议沟通，既尊重长辈又保持职业得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "委婉表达方案有改动空间并建议沟通，既尊重长辈又保持职业得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "先以沏茶示礼，再委婉指出方案有改动空间并将差异归因于领导思路不同，既职业得体又避免越级否定领导。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-010",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "向上汇报应客观聚焦客户诉求与协调需要，避免带入情绪化抱怨和个人压力，体现职业素养。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "向上汇报应客观聚焦客户诉求与协调需要，避免带入情绪化抱怨和个人压力，体现职业素养。"
+          },
+          {
+            "choice": "B",
+            "reason": "汇报应聚焦客户诉求与协调需要，避免情绪化抱怨和个人压力，体现职业素养。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-011",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "以公开邀请全体同事的方式间接涵盖领导，避免单独邀约的尴尬与私事误会，自然得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "以公开邀请全体同事的方式间接涵盖领导，避免单独邀约的尴尬与私事误会，自然得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "在群里公开邀请全体而非单独点名领导，避免直接提及刘总的尴尬并消除有私事嫌疑，最为自然得体。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-016",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "诚实收回无法兑现的承诺，避免继续陷入虚假人情的麻烦，是最得体的止损做法。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "诚实收回无法兑现的承诺，避免继续陷入虚假人情的麻烦，是最得体的止损做法。"
+          },
+          {
+            "choice": "A",
+            "reason": "坦诚告知无法帮忙，及时收回虚诺，避免更深的不诚信与后续麻烦。"
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-018",
+        "dimension": "拒绝的艺术",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "小李专门留位显情谊，王平因急事缺席用温暖语音诚恳致歉并表达遗憾最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "小李专门留位显情谊，王平因急事缺席用温暖语音诚恳致歉并表达遗憾最为得体。"
+          },
+          {
+            "choice": "A",
+            "reason": "小李特意留位显重视，王平因急事缺席，用温暖语音诚恳道歉并表达遗憾既体现尊重又有人情味。"
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-000",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "王阿姨以女儿还小未考虑婚事低调回避直接对比，既不得罪李大妈又化解尴尬。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "王阿姨以女儿还小未考虑婚事低调回避直接对比，既不得罪李大妈又化解尴尬。"
+          },
+          {
+            "choice": "C",
+            "reason": "委婉说自己女儿还小未考虑婚事，回避条件对比，不得罪亲戚且给台阶下。"
+          }
+        ]
       },
       {
         "id": "敏感话题-002",
@@ -56,16 +1311,158 @@
         "answer": "D",
         "model_choice": "D",
         "correct": true,
-        "reason": "顾及王主管颜面，私下沟通问题更得体。"
+        "reason": "为避免让财务部尴尬，应私下单独沟通问题而非在饭局上公开讨论。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "为避免让财务部尴尬，应私下单独沟通问题而非在饭局上公开讨论。"
+          },
+          {
+            "choice": "D",
+            "reason": "饭局后单独沟通既能指出数据错误，又避免让财务部当众尴尬。"
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-005",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "笑着说谢谢并转移话题，避免冲突且维持聚餐和谐气氛。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "笑着说谢谢并转移话题，避免冲突且维持聚餐和谐气氛。"
+          },
+          {
+            "choice": "A",
+            "reason": "笑谢并转移话题可避免敏感讨论、维持聚餐和谐，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-006",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "谦虚致谢并强调做好本职工作，既给上司面子又避免同事误会自己走后门。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "谦虚致谢并强调做好本职工作，既给上司面子又避免同事误会自己走后门。"
+          },
+          {
+            "choice": "A",
+            "reason": "谦逊感谢并强调本职努力，既给上司面子又避免同事误会走后门。"
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-010",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "帮人忙后轻描淡写不居功，让对方不欠人情、避免心理负担，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "帮人忙后轻描淡写不居功，让对方不欠人情、避免心理负担，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "帮人忙后淡化恩惠、说顺手为之并让对方不必在意，能减轻人情负担，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-014",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "私下幽默点明领导偏好个人汇报并夸小李不抢功，既澄清非故意忽略又维护对方面子与团队氛围。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "私下幽默点明领导偏好个人汇报并夸小李不抢功，既澄清非故意忽略又维护对方面子与团队氛围。"
+          },
+          {
+            "choice": "D",
+            "reason": "用幽默点出领导偏好个人汇报的客观原因并夸小李不抢功，既化解尴尬又维护团队关系且不推诿揽责。"
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-019",
+        "dimension": "敏感话题",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "以玩笑方式化解尴尬，显大度且维护双方面子，并自然转移话题。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "以玩笑方式化解尴尬，显大度且维护双方面子，并自然转移话题。"
+          },
+          {
+            "choice": "C",
+            "reason": "以玩笑化解尴尬，冷静大度地表达不满并主动缓和关系，维护朋友情谊。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-000",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "不在群里揭穿以保全对方面子，私聊提醒合规并关心其困难，兼顾管理职责与人情往来。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "不在群里揭穿以保全对方面子，私聊提醒合规并关心其困难，兼顾管理职责与人情往来。"
+          },
+          {
+            "choice": "B",
+            "reason": "不在群里揭穿以保全对方面子，私聊提醒合规并关心其困难，兼顾规则与人情。"
+          }
+        ]
       },
       {
         "id": "职场潜规则-001",
         "dimension": "职场潜规则",
         "difficulty": "中等",
         "answer": "A",
-        "model_choice": "A",
-        "correct": true,
-        "reason": "新人坦诚不熟悉任务并主动提出协助其他事务，既谦虚礼貌又避免勉强暴露能力不足。"
+        "model_choice": "D",
+        "correct": false,
+        "reason": "D选项礼貌积极且未直言不熟悉，避免了暴露经验不足，相较其他更得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "D选项礼貌积极且未直言不熟悉，避免了暴露经验不足，相较其他更得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "D选项既礼貌表态积极，又未直言不熟悉，避免了暴露水平有限。"
+          }
+        ]
       },
       {
         "id": "职场潜规则-002",
@@ -74,7 +1471,178 @@
         "answer": "C",
         "model_choice": "C",
         "correct": true,
-        "reason": "轻轻点明事实而不翻脸，既维护饭局气氛又澄清自身贡献，最为得体。"
+        "reason": "轻轻点明事实但不翻脸，得体维护自身功劳又不伤和气。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "轻轻点明事实但不翻脸，得体维护自身功劳又不伤和气。"
+          },
+          {
+            "choice": "C",
+            "reason": "委婉澄清事实且不翻脸，既维护饭局气氛又彰显自身贡献。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-003",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "委婉说明资金被进货占用，将分红推迟到年底，既如实反映困难又不伤和气。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "委婉说明资金被进货占用，将分红推迟到年底，既如实反映困难又不伤和气。"
+          },
+          {
+            "choice": "B",
+            "reason": "委婉以进货资金紧张为由推迟红包，既不撒谎也不伤和气。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-004",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "私下单独找领导沟通既指出预算问题又维护对方面子，避免公开冲突且恪尽职守。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "私下单独找领导沟通既指出预算问题又维护对方面子，避免公开冲突且恪尽职守。"
+          },
+          {
+            "choice": "B",
+            "reason": "私下单独沟通既维护领导颜面又履行财务监督职责，避免公开冲突且有效解决问题。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-005",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "私下委婉提醒既照顾张强面子，又避免群内公开尴尬，最符合人情世故。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "私下委婉提醒既照顾张强面子，又避免群内公开尴尬，最符合人情世故。"
+          },
+          {
+            "choice": "C",
+            "reason": "私下委婉提醒既保护张强面子又尽到朋友关怀，避免群内公开否定伤和气。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-009",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "承认部分责任缓和主管情绪并表态改进，既不得罪人也不卑微",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "承认部分责任缓和主管情绪并表态改进，既不得罪人也不卑微"
+          },
+          {
+            "choice": "A",
+            "reason": "作为组长承担部分责任并表态改进，既给主管面子又不卑不亢。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-013",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "先敬酒祝贺小张再鼓励团队，展现大度与职业素养",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "先敬酒祝贺小张再鼓励团队，展现大度与职业素养"
+          },
+          {
+            "choice": "D",
+            "reason": "主动敬酒祝贺小张并鼓励团队，展现大格局与高情商"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-015",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "同为新人且关系不熟，应委婉基于刚来不了解的客观事实表达并示好配合，避免草率否定或虚假夸赞。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "同为新人且关系不熟，应委婉基于刚来不了解的客观事实表达并示好配合，避免草率否定或虚假夸赞。"
+          },
+          {
+            "choice": "B",
+            "reason": "对同样刚入职且不熟悉的同事，应客观委婉地以了解不足为由并提出配合，既完成汇报又不得罪人。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-018",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "先共情理解其压力，再客观提醒小李过往好处并建议冷静处理、保护隐私维护关系，最为稳妥得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "先共情理解其压力，再客观提醒小李过往好处并建议冷静处理、保护隐私维护关系，最为稳妥得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "先共情理解其心累，劝导冷静处理且勿外扬以维护关系，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-019",
+        "dimension": "职场潜规则",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "只有D符合小张家条件不如小李的事实，且谦逊尊重对方父亲，态度得体能拉近关系。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "只有D符合小张家条件不如小李的事实，且谦逊尊重对方父亲，态度得体能拉近关系。"
+          },
+          {
+            "choice": "C",
+            "reason": "坦诚承认条件差异但表达看重人品，主动邀约交流，不卑不亢且能化解距离感。"
+          }
+        ]
       },
       {
         "id": "说话之道-001",
@@ -83,16 +1651,378 @@
         "answer": "C",
         "model_choice": "C",
         "correct": true,
-        "reason": "坦诚承认可能伤人的失误并表达维系关系的诚意，最为得体。"
+        "reason": "坦诚反思自己言语不当并表达善意维系同学关系，既回应询问又体现自省与包容，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "坦诚反思自己言语不当并表达善意维系同学关系，既回应询问又体现自省与包容，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "坦诚承认自己言语可能伤人并表达维系同学关系的诚意，最为真诚得体。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-003",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "B",
+        "correct": false,
+        "reason": "公开场合应维护主管面子，谦逊归功团队与主管，避免冲突且不得罪人。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "公开场合应维护主管面子，谦逊归功团队与主管，避免冲突且不得罪人。"
+          },
+          {
+            "choice": "B",
+            "reason": "公开场合维护主管权威并谦虚归功团队，避免撕破脸且显职业素养。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-006",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "B",
+        "correct": false,
+        "reason": "用委婉借口拒绝继续帮忙，不翻旧账且避免直接冲突，维持职场表面和谐。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "用委婉借口拒绝继续帮忙，不翻旧账且避免直接冲突，维持职场表面和谐。"
+          },
+          {
+            "choice": "B",
+            "reason": "委婉拒绝后续请求且不提旧事，既保持专业体面又避免被继续占便宜。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-011",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "面对老大特意敬酒致谢，普通员工愉快饮尽并夸赞可全对方面子，维护热闹气氛，最为圆滑得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "面对老大特意敬酒致谢，普通员工愉快饮尽并夸赞可全对方面子，维护热闹气氛，最为圆滑得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "顺势饮尽并夸赞既成全对方谢意又维系热闹气氛，最符合人情世故。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-012",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "阿姨已替你付钱，主动回请奶茶体现礼尚往来，自然大方又不欠人情。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "阿姨已替你付钱，主动回请奶茶体现礼尚往来，自然大方又不欠人情。"
+          },
+          {
+            "choice": "D",
+            "reason": "主动分享喜好能拉近邻里关系，自然回应阿姨的热情，避免敷衍。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-013",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "小张因被评论体型而不适，得体的做法是真诚关心而非指手画脚，D选项提供情感支持和帮助最为妥当。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "小张因被评论体型而不适，得体的做法是真诚关心而非指手画脚，D选项提供情感支持和帮助最为妥当。"
+          },
+          {
+            "choice": "C",
+            "reason": "小张以工作忙委婉解释消瘦并谢绝过度关心，同时提醒身体要紧，既维护自尊又不伤和气。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-014",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "删除违规消息并私聊说明规则可维护群秩序且避免公开矛盾，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "删除违规消息并私聊说明规则可维护群秩序且避免公开矛盾，最为得体。"
+          },
+          {
+            "choice": "A",
+            "reason": "已发简短提醒避免引人注意，接下来应私聊违规者并删除消息，得体维护群规。"
+          }
+        ]
+      },
+      {
+        "id": "说话之道-017",
+        "dimension": "说话之道",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "私下诚恳道歉并肯定张伟的贡献，能修复关系且避免矛盾公开化。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "私下诚恳道歉并肯定张伟的贡献，能修复关系且避免矛盾公开化。"
+          },
+          {
+            "choice": "A",
+            "reason": "私下真诚道歉并肯定张伟的帮助，既修复了微妙关系又避免事态公开化，最符合职场人情世故。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-000",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "坦诚承认责任并承诺汇报细节与改进，既配合主管公开管理又展现专业态度。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "坦诚承认责任并承诺汇报细节与改进，既配合主管公开管理又展现专业态度。"
+          },
+          {
+            "choice": "C",
+            "reason": "坦诚承认流程违规责任并承诺改进，既配合领导公开立规又不否定应急成绩，得体周全。"
+          }
+        ]
       },
       {
         "id": "面子文化-001",
         "dimension": "面子文化",
         "difficulty": "中等",
         "answer": "B",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "公开调侃既维护群规又给老同学留面子，避免关系闹僵。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "公开调侃既维护群规又给老同学留面子，避免关系闹僵。"
+          },
+          {
+            "choice": "D",
+            "reason": "公开调侃既提醒守群规又保全老同学面子，兼顾管理职责与人际关系。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-003",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "D",
+        "correct": false,
+        "reason": "笑着说明身体原因控制饮酒，态度从容且不失礼貌。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "笑着说明身体原因控制饮酒，态度从容且不失礼貌。"
+          },
+          {
+            "choice": "A",
+            "reason": "在客户起哄时痛快饮酒致谢既给对方面子化解尴尬，又保持了体面。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-006",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "领导已表态不便质疑，以请吃饭私下沟通细节既给面子又留协商余地，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "领导已表态不便质疑，以请吃饭私下沟通细节既给面子又留协商余地，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "王总已明确不便提反对意见，以请吃饭为由委婉创造私下沟通机会，既给领导台阶又留协商余地。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-008",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "顺应对方误会自谦为员工，既化解尴尬又维护领导权威和客户面子。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "顺应对方误会自谦为员工，既化解尴尬又维护领导权威和客户面子。"
+          },
+          {
+            "choice": "A",
+            "reason": "顺着客户误会自称员工，将话题引向领导安排，既化解尴尬又维护领导面子。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-009",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "关系亲近可分享向好趋势，但保密具体数字既保护隐私又不显炫耀。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "关系亲近可分享向好趋势，但保密具体数字既保护隐私又不显炫耀。"
+          },
+          {
+            "choice": "C",
+            "reason": "委婉透露收入增长但保密具体数字，既亲近回应又避免落差与炫耀。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-010",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "小李以幽默化解尴尬，尊重韩叔不饮酒的选择并给母亲台阶下，转移话题避免继续劝酒。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "小李以幽默化解尴尬，尊重韩叔不饮酒的选择并给母亲台阶下，转移话题避免继续劝酒。"
+          },
+          {
+            "choice": "A",
+            "reason": "小李以轻松幽默化解尴尬，既尊重韩叔不饮酒，又给母亲台阶下并转移话题缓和气氛。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-012",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "B",
         "model_choice": "B",
         "correct": true,
-        "reason": "私聊询问既给老同学留面子避免公开冲突，又履行管理员提醒违规的职责，最为得体。"
+        "reason": "不当着家属面直接催债伤和气，借故忙改日约饭私下妥善处理借款更顾全情面",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "不当着家属面直接催债伤和气，借故忙改日约饭私下妥善处理借款更顾全情面"
+          },
+          {
+            "choice": "A",
+            "reason": "多年挚友间坦诚催促还款既明确诉求又避免纵容拖欠，比其余颠倒或含糊的选项更得体。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-016",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "C",
+        "correct": false,
+        "reason": "小李察觉小张尴尬，主动以体谅语气替其圆场化解尴尬，避免继续追问，最为得体。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "小李察觉小张尴尬，主动以体谅语气替其圆场化解尴尬，避免继续追问，最为得体。"
+          },
+          {
+            "choice": "D",
+            "reason": "小李作为询问者见小张尴尬，应主动打圆场用普遍现状安慰而非深挖或替对方定性，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-017",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "在群里用模糊提醒缓和气氛，不点名不刺激，维护群和谐。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "在群里用模糊提醒缓和气氛，不点名不刺激，维护群和谐。"
+          },
+          {
+            "choice": "C",
+            "reason": "在群里用模糊语言点到为止不点名，既避免暴露王经理和刺激对方，又维护了群内和谐关系。"
+          }
+        ]
+      },
+      {
+        "id": "面子文化-019",
+        "dimension": "面子文化",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "私下温和沟通既给对方面子，又明确表达自身拮据和还款要求，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "私下温和沟通既给对方面子，又明确表达自身拮据和还款要求，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "私下温和沟通既给对方面子又明确表达自身拮据并催款，最为得体。"
+          }
+        ]
       },
       {
         "id": "饭局礼仪-001",
@@ -101,49 +2031,441 @@
         "answer": "C",
         "model_choice": "C",
         "correct": true,
-        "reason": "诚恳说明当下忙碌并记下请求留待后续，兼顾朋友情面与职场原则，最为得体。"
+        "reason": "顾及亲近关系又如实说明忙碌，未盲目承诺而留有余地，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "顾及亲近关系又如实说明忙碌，未盲目承诺而留有余地，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "既坦诚说明当下工作繁忙无法立即处理，又未拒绝朋友请求，留有余地顾及了人情关系。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-003",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "在王总婉拒后主动圆场继续交流可避免尴尬维系礼节，其他选项均失礼或逃避。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "在王总婉拒后主动圆场继续交流可避免尴尬维系礼节，其他选项均失礼或逃避。"
+          },
+          {
+            "choice": "A",
+            "reason": "面对夹菜被拒的尴尬，最得体是笑着圆场并转移话题，保持气氛和谐自然。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-005",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "新主管在关系未熟时宜圆滑肯定新人，既给面子又避免直说负面显得得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "新主管在关系未熟时宜圆滑肯定新人，既给面子又避免直说负面显得得体。"
+          },
+          {
+            "choice": "A",
+            "reason": "作为新主管关系未熟时委婉包容评价新人，既顾全面子又得体自然。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-006",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "主动回应暗示并承诺还款预期，既保全面子又明确态度，最得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "主动回应暗示并承诺还款预期，既保全面子又明确态度，最得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "刘强作为欠款人委婉说明资金困难并承诺后续还款，既保全体面又明确态度，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-008",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "默许小李买单保全其面子，饭后私下感谢既顾全下属积极性又显主管体恤。",
+        "stable": false,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "默许小李买单保全其面子，饭后私下感谢既顾全下属积极性又显主管体恤。"
+          },
+          {
+            "choice": "D",
+            "reason": "作为在场最高主管，不驳下属面子又用兄弟情谊淡化职级，体现亲和力与领导力"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-009",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "坦诚担责并给出补救方案，同时委婉请求资源支持，兼顾责任与职业形象。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "坦诚担责并给出补救方案，同时委婉请求资源支持，兼顾责任与职业形象。"
+          },
+          {
+            "choice": "A",
+            "reason": "既坦诚承担责任又展现积极解决态度，并请求领导支持以维护合作关系与自身形象。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-010",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "D",
+        "model_choice": "D",
+        "correct": true,
+        "reason": "平静礼貌地明确表达急用钱并请求还款，既达成索债目的又保持体面不给对方难堪。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "D",
+            "reason": "平静礼貌地明确表达急用钱并请求还款，既达成索债目的又保持体面不给对方难堪。"
+          },
+          {
+            "choice": "D",
+            "reason": "王刚目的是要回欠款，D平静提出需求既明确目的又保持礼貌，最符合得体原则。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-012",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "委婉拒绝并陪伴，既遵医嘱又照顾对方面子",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "委婉拒绝并陪伴，既遵医嘱又照顾对方面子"
+          },
+          {
+            "choice": "A",
+            "reason": "以身体不舒服委婉拒酒并陪坐观饮，既遵医嘱又照顾了刘姨的面子。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-014",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "A",
+        "model_choice": "A",
+        "correct": true,
+        "reason": "冷静解释并将矛盾归为沟通不足，避免当场冲突且兼顾各方颜面。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "A",
+            "reason": "冷静解释并将矛盾归为沟通不足，避免当场冲突且兼顾各方颜面。"
+          },
+          {
+            "choice": "A",
+            "reason": "冷静将矛盾归为沟通不足并轻描淡写，既不得罪小刘也不让王经理难堪，避免当场撕破脸。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-016",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "在安抚客户后主动向领导同步情况并表态已控制风险，既透明又体现责任感。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "在安抚客户后主动向领导同步情况并表态已控制风险，既透明又体现责任感。"
+          },
+          {
+            "choice": "C",
+            "reason": "向领导报备客户意见但说明已电话安抚，既保持信息透明又展现处理能力，避免领导被突然找。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-017",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "C",
+        "model_choice": "C",
+        "correct": true,
+        "reason": "趁张总夹菜时压低声音委婉提醒预算与供应商问题，既反映风险又顾及领导颜面，最为得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "C",
+            "reason": "趁张总夹菜时压低声音委婉提醒预算与供应商问题，既反映风险又顾及领导颜面，最为得体。"
+          },
+          {
+            "choice": "C",
+            "reason": "在饭局上借领导夹菜时机低声委婉提出预算与供应商疑虑，既履职又顾及领导颜面，最为得体。"
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-020",
+        "dimension": "饭局礼仪",
+        "difficulty": "中等",
+        "answer": "B",
+        "model_choice": "B",
+        "correct": true,
+        "reason": "小刘应婉转结合同事真实反馈向张经理转述优缺点，既满足听实话需求又保持得体。",
+        "stable": true,
+        "samples": [
+          {
+            "choice": "B",
+            "reason": "小刘应婉转结合同事真实反馈向张经理转述优缺点，既满足听实话需求又保持得体。"
+          },
+          {
+            "choice": "B",
+            "reason": "婉转结合同事反馈指出优缺点，既满足张经理真实反馈要求，又顾及师徒情面不得罪人。"
+          }
+        ]
       }
     ],
-    "accuracy": 0.9090909090909091,
-    "correct": 10,
-    "total": 11,
+    "accuracy": 0.7522123893805309,
+    "correct": 85,
+    "total": 113,
     "by_dimension": {
+      "说话之道": {
+        "n": 18,
+        "acc": 0.5555555555555556
+      },
       "人情往来": {
-        "n": 2,
-        "acc": 0.5
+        "n": 10,
+        "acc": 0.7
       },
       "分寸与边界": {
-        "n": 1,
-        "acc": 1.0
+        "n": 10,
+        "acc": 0.9
+      },
+      "危机化解": {
+        "n": 14,
+        "acc": 0.7857142857142857
       },
       "家庭关系": {
-        "n": 1,
-        "acc": 1.0
+        "n": 11,
+        "acc": 0.7272727272727273
       },
       "拒绝的艺术": {
-        "n": 1,
-        "acc": 1.0
+        "n": 9,
+        "acc": 0.7777777777777778
       },
       "敏感话题": {
-        "n": 1,
-        "acc": 1.0
+        "n": 7,
+        "acc": 0.7142857142857143
       },
       "职场潜规则": {
-        "n": 2,
-        "acc": 1.0
-      },
-      "说话之道": {
-        "n": 1,
-        "acc": 1.0
+        "n": 11,
+        "acc": 0.8181818181818182
       },
       "面子文化": {
-        "n": 1,
-        "acc": 1.0
+        "n": 11,
+        "acc": 0.6363636363636364
       },
       "饭局礼仪": {
-        "n": 1,
+        "n": 12,
         "acc": 1.0
       }
-    }
+    },
+    "stability": 0.9026548672566371
+  },
+  "open": {
+    "per_question": [
+      {
+        "id": "说话之道-open-000",
+        "answer": "做法：小李略带歉意笑答：“刘哥，我出差刚回，领导留的座没赶上仪式，正想补贺呢！刚遇老板还问你俩辛苦。”随即真诚祝福新婚。\n\n理由：直面缺席事实，不延续前文虚构习惯；借领导留座缓和尴尬，老板在场时谦恭得体，既保全同学情又显职场情商。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {},
+            "total": 0.0,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "id": "饭局礼仪-open-000",
+        "answer": "**做法**：立刻举杯笑答：“晓哥，客户都夸你洞察力准，我牵线小事！单早成了哪会黄，这杯我干！”饮尽。\n\n**理由**：借客户语暗点功劳在李洞察而非其自夸关系，捧面保周全；顺杯破逼酒，人多不拆台，化尴尬护谊。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {},
+            "total": 0.0,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "id": "面子文化-open-000",
+        "answer": "做法：小王应立刻道歉：“李总息怒，刚才是我言语幼稚欠妥，让您不快，实在抱歉。明天我一定按您要求给您领导打电话解释，订单我们全力做好。”并递茶安抚。\n理由：客户发火时不可争辩，先认错稳住订单避免废单；顺应要求显诚意，为后续修复关系留余地。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {
+              "tact": 0,
+              "measure": 0,
+              "practicality": 0,
+              "strategy": 0,
+              "rationale": 0
+            },
+            "total": 0.0,
+            "comment": "未收到考生回答，依考试规则视为空白卷，各项评分暂记0分。人情练达处贵在急中生智：小王宜追出门缓颊、认错表态，再询领导意思。盼补答后重评，方见真章。"
+          }
+        ]
+      },
+      {
+        "id": "职场潜规则-open-000",
+        "answer": "做法：小张宜平和回应：“李总，数据已恢复。我作为骨干有提醒疏漏，但主因是流程漏洞，会后带团队复盘补救。”  \n理由：轻揽监督责避抢功嫌疑；归因流程免经理持续施压，给其台阶下，也消同事对“不当面指责”或“关系户”的闲言，稳处境。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {
+              "tact": 0,
+              "measure": 0,
+              "practicality": 0,
+              "strategy": 0,
+              "rationale": 0
+            },
+            "total": 0.0,
+            "comment": "考生未提供具体回答内容，无法评估其场合应对与理由。依评卷规则，空白作答各维度记零分。建议补充回应方案后再评，以考察得体分寸与长远策略。期待后续佳作。"
+          }
+        ]
+      },
+      {
+        "id": "人情往来-open-000",
+        "answer": "做法：在群内@张三回复：“我是管理员，不便拉人填资料，大家注意隐私风险自愿参与。”随后私聊他：提醒“包治百病”宣传不实，正规品牌也需如实说明，不能帮拉人但私下可补个人情。  \n理由：管理员应防范信息泄露与虚假宣传风险，公开提醒履责，私聊婉拒顾及同事情谊，既守规又不伤和气。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {},
+            "total": 0.0,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "id": "拒绝的艺术-open-000",
+        "answer": "**做法**：当场笑着举杯，感谢胡经理赏识，诚恳说明元旦需回老家陪90岁奶奶过年尽孝，分身乏术；并主动提议节后返岗再专门汇报新项目，今晚先敬领导一杯。\n\n**理由**：以“孝道”为由拒绝无可指摘，避免暴露经济窘境；把私聊转为公事汇报，既全了领导面子，又显上进心，妥处关系。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {
+              "tact": 0,
+              "measure": 0,
+              "practicality": 0,
+              "strategy": 0,
+              "rationale": 0
+            },
+            "total": 0.0,
+            "comment": "未检测到考生回答文本，视为空白卷。各维度均计0分。此题考察婉拒上级私下邀约且兼顾孝道与职场分寸，考生需补答方能量化评分。建议明确回绝理由并赠替代方案。"
+          }
+        ]
+      },
+      {
+        "id": "分寸与边界-open-000",
+        "answer": "**做法**：立刻回信安抚，坦诚告知自己近期同样资金紧张，实在拿不出50万，但愿意尽力凑几万救急，并邀他明晚见面聊聊，帮其梳理其他筹款渠道。\n\n**理由**：真兄弟贵在真诚。盲目硬借会拖垮自己，生硬拒绝又伤感情。如实说明难处并量力帮扶、线下支招，既守住财务底线，又尽到铁哥们情分。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {
+              "tact": 0,
+              "measure": 0,
+              "practicality": 0,
+              "strategy": 0,
+              "rationale": 0
+            },
+            "total": 0.0,
+            "comment": "未收到考生回答，故无法针对性打分。此题核心在于平衡友情与自身财务边界：得体温和拒全额，提出有限帮助（如凑部分或引荐贷款），长远维护信任。请补回答再评。暂记0分。"
+          }
+        ]
+      },
+      {
+        "id": "家庭关系-open-000",
+        "answer": "**做法**：明确婉拒出资与协调。以手头紧、与赵女士娘家不熟为由，劝他夫妻自行沟通或找长辈调解。\n\n**理由**：关系一般，20万属巨款；婚后多年突索“协调费”逻辑可疑、违约风险高。不熟岳家出面无效，盲目答应易致财情两失，须划清边界避坑。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {},
+            "total": 0.0,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "id": "敏感话题-open-000",
+        "answer": "做法：小李应迅速落实团年饭，建群组织同事、订好位并请王总敲定时间；私下委婉表示以集体聚餐代红包，坦言收入普通。  \n理由：将个人索礼转为团队福利，保全体面与钱包；主动张罗显担当，优化上级印象，助力晋升，且符合职场拒礼技巧。",
+        "score": 24.0,
+        "judge_details": [
+          {
+            "scores": {
+              "tact": 7,
+              "measure": 5,
+              "practicality": 8,
+              "strategy": 4,
+              "rationale": 0
+            },
+            "total": 24.0,
+            "comment": "未提供考生回答，暂对题中所述小李转移话题请吃饭订位之举评分。该做法照顾对方面子、可行性强，但回避红包暗示显生硬，缺乏理由说明，长期关系维护不足。"
+          }
+        ]
+      },
+      {
+        "id": "危机化解-open-000",
+        "answer": "做法：递纸巾说：“别胡思乱想，你人品我懂。他可能最近压力大才疑神疑鬼，咱在小区喝咖啡算啥‘泡外面’？你回去好好沟通，今儿只管开心聊。”\n\n理由：先安抚情绪，再用正常聚会解释位置争议，不评判其老公、不深挖，既护闺蜜自尊又撇清自己，避免卷入夫妻是非，守住分寸。",
+        "score": 0.0,
+        "judge_details": [
+          {
+            "scores": {},
+            "total": 0.0,
+            "comment": ""
+          }
+        ]
+      }
+    ],
+    "average_score": 2.4,
+    "total": 10
   }
 }

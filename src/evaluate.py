@@ -174,6 +174,7 @@ if __name__ == "__main__":
     ap.add_argument("--tag", type=str, default="", help="报告标签")
     ap.add_argument("--judge-model", type=str, default=None, help="judge 模型（默认同被测模型）")
     ap.add_argument("--no-open", action="store_true", help="跳过开放题")
+    ap.add_argument("--open-only", action="store_true", help="只跑开放题（跳过选择题）")
     ap.add_argument("--runs", type=int, default=1, help="客观题多次采样测稳定性（>1 生效）")
     ap.add_argument("--judge-rounds", type=int, default=1, help="开放题 judge 采样次数")
     args = ap.parse_args()
@@ -182,7 +183,22 @@ if __name__ == "__main__":
     print(f"加载 benchmark: {len(mc_qs)} 道选择题, {len(open_qs)} 道开放题\n")
 
     test_client = LLMClient(model=args.model, temperature=0.2)
-    report = {"model": args.model, "tag": args.tag, "timestamp": __import__("datetime").datetime.now().isoformat()}
+    report = {"model": args.model, "tag": args.tag,
+              "timestamp": __import__("datetime").datetime.now().isoformat()}
+
+    if args.open_only:
+        print("===== 开放题评测（跳过选择题） =====")
+        jc = LLMClient(model=args.judge_model, temperature=0.2) if args.judge_model else None
+        open_result = evaluate_open(test_client, open_qs, judge_client=jc,
+                                    judge_rounds=args.judge_rounds)
+        report["open"] = open_result
+        write_report(report, f"results/{args.tag or 'report'}.json")
+        lines = [f"# 评测报告: {args.model} {args.tag}",
+                 f"\n- 开放题平均分: **{report['open']['average_score']:.1f}/50**"]
+        md_path = f"results/{args.tag or 'report'}.md"
+        Path(md_path).write_text("\n".join(lines), encoding="utf-8")
+        print(f"Markdown 汇总已写入: {md_path}")
+        sys.exit(0)
 
     print("===== 选择题评测 =====")
     mc_result = evaluate_mc(test_client, mc_qs, tag=args.tag, runs=args.runs)

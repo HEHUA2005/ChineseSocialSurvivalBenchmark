@@ -29,13 +29,13 @@
 
 ## ✨ 特性
 
-- 🤖 **全自动流水线**：LLM 生成题目 → LLM judge 三层对抗质检 → 自动评测，**零人工标注**
-- 🛡️ **防自欺设计**：独立判官（不看到答案）与生成器交叉验证，63% 的低质题被过滤
-- 🎭 **三种题型**：客观题 / 开放题 5 维 rubric judge 打分 / **陷阱题（加权失误评分）**
+- 🤖 **全自动流水线**：LLM 生成题目 → LLM judge 多重质检 → 自动评测，**零人工标注**
+- 🛡️ **防自欺设计**：独立判官（不看到答案）与生成器交叉验证，过半数低质题被过滤
+- 🎭 **六种题型**：客观题 / 开放题 5 维 rubric judge 打分 / 陷阱题（加权失误评分）/ **排序题（杀伤力排序）** / **话外音识别** / **多轮对话博弈**
 - ⚖️ **错误分类学**：10 类人情世故失误分级加权（驳面子−10 → 小失误−2），陷阱题按「多害相权取其轻」给分
 - 📏 **共识度标注**：每题标注「主流中国人认同度」，剔除只有老顽固认可的旧观念
 - 📊 **能力雷达图**：10 维度画像（说话之道/饭局/面子/职场/人情/拒绝/分寸/家庭/敏感/危机）纯 SVG 生成
-- 🔍 **可解释报告**：按维度/难度分组统计 + 答题稳定性指标 + 逐题解析
+- 🔍 **可解释报告**：按维度/难度分组统计 + 答题稳定性指标（重复采样）+ 逐题解析 + judge 自一致性校准
 
 ## 🔧 全自动流水线
 
@@ -152,6 +152,22 @@ python3 -m src.trap_gen --count 3 --model grok-4.3-fast   # 生成
 python3 -m src.trap_validate --model grok-4.3-fast        # 判官严重度校验
 python3 -m src.trap_eval --model deepseek-v4-flash-free   # 加权评测
 
+# 4b. 排序题（杀伤力排序）+ 话外音识别 + 多轮对话
+python3 -m src.sort_gen --count 1 --model grok-4.3-fast   # 生成（每维 1 题）
+python3 -m src.sort_validate --model grok-4.3-fast        # 端点质检
+python3 -m src.sort_eval --model deepseek-v4-flash-free   # Kendall tau 排序评测
+python3 -m src.spot_gen --count 12 --model grok-4.3-fast  # 话外音生成（答案轮换）
+python3 -m src.spot_validate --model grok-4.3-fast        # 判官独立猜意图
+python3 -m src.multi_turn_gen --count 1 --model grok-4.3-fast
+python3 -m src.mt_validate --model grok-4.3-fast
+python3 -m src.multi_turn_eval --model deepseek-v4-flash-free  # judge 扮演对手 3 轮博弈
+
+# 4c. judge 自身一致性校准（多温度复打，检验分数可靠性）
+python3 -m src.judge_calib --model grok-4.3-fast
+
+# 4d. 错题本：高区分度题提炼 + 变体生成（防位置猜答案）
+python3 -m src.hardest --variants 6
+
 # 5. 汇总可视化
 python3 -m src.radar            # 10 维能力雷达图（SVG）
 python3 -m src.leaderboard      # 综合排行榜（markdown）
@@ -165,16 +181,29 @@ ChineseSocialSurvivalBenchmark/
 │   ├── generate.py      # ① 选择题生成器
 │   ├── generate_open.py # ① 开放题生成器
 │   ├── trap_gen.py      # ① 陷阱题生成器（无完美解困境 + 错误权重）
+│   ├── sort_gen.py      # ① 排序题生成器（杀伤力排序，自检罚分单调）
+│   ├── spot_gen.py      # ① 话外音识别生成器（弦外之音，答案字母轮换）
+│   ├── multi_turn_gen.py# ① 多轮对话剧本生成器（三轮升级困境）
 │   ├── validate.py      # ② LLM judge 质检与过滤
 │   ├── trap_validate.py # ② 陷阱题判官严重度校验（3 判官投票）
-│   ├── evaluate.py      # ④ 评测（客观题 + 开放题 judge）
+│   ├── sort_validate.py # ② 排序题端点质检（最轻/最重判官验证）
+│   ├── spot_validate.py # ② 话外音题判官独立猜意图验证
+│   ├── open_validate.py # ② 开放题题面质量质检
+│   ├── mt_validate.py   # ② 多轮剧本质检（升级清晰/有雷点/开放结局）
+│   ├── evaluate.py      # ④ 评测（客观题 + 开放题 judge，--runs 测稳定性）
 │   ├── trap_eval.py     # ④ 陷阱题加权评测（失误罚分制）
+│   ├── sort_eval.py     # ④ 排序题评测（Kendall tau + 底线保护率）
+│   ├── multi_turn_eval.py# ④ 多轮对话评测（judge 扮演对手动态博弈）
+│   ├── judge_calib.py   # ③ judge 自身一致性校准（多温度复打）
+│   ├── hardest.py       # ⑤ 错题本：高区分度题提炼 + 变体生成
 │   ├── dims.py          # 维度体系 + 错误分类学（10 类失误权重）
 │   ├── radar.py         # ⑤ 10 维能力雷达图（纯 SVG）
-│   ├── leaderboard.py   # ⑤ 综合排行榜聚合
+│   ├── leaderboard.py   # ⑤ 综合排行榜聚合（六题型加权）
 │   └── client.py        # 轻量 OpenAI 兼容客户端
+├── scripts/
+│   └── run_all_eval.sh  # 六题型 × 6 模型批量评测总控
 ├── data/
-│   └── benchmark/v1/    # 正式 benchmark 集（11 客观题 + 13 陷阱题 + 10 开放题）
+│   └── benchmark/v1/    # 正式 benchmark 集（113 客观 + 45 陷阱 + 50 开放 + 12 排序 + 9 多轮）
 ├── results/             # 评测报告（json + markdown + 雷达图 svg）
 ├── docs/design.md       # 设计文档与首测分析
 └── config/settings.py   # 环境变量配置
@@ -207,10 +236,11 @@ ChineseSocialSurvivalBenchmark/
 ## 🗺️ Roadmap
 
 - [x] v0.1：流水线跑通，21 题正式集，deepseek 首测
-- [ ] v0.2：扩量至 100+ 题（已验证题目作 few-shot 种子迭代）
-- [ ] v0.3：多轮对话题目（测「说到做到」与临场应变）
-- [ ] v0.4：交叉质检（不同模型族互相质检，消除同族偏差）
-- [ ] v0.5：人类抽样验证，对齐 judge 分数与人类评分
+- [x] v0.2：扩量（113 客观 + 45 陷阱 + 50 开放 = 208 题正式集）
+- [x] v0.3：多轮对话题目（测「说到做到」与临场应变）
+- [x] v0.4：排序题（杀伤力排序）+ 话外音识别 + 稳定性带分
+- [ ] v0.5：交叉质检（不同模型族互相质检，消除同族偏差）
+- [ ] v0.6：人类抽样验证，对齐 judge 分数与人类评分
 - [ ] 官方排行榜 + Leaderboard 页
 
 ## 🤝 参与贡献
